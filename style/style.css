@@ -203,6 +203,10 @@ html {
   display: flex;
 }
 
+.signage__icon {
+  width: 9rem;
+}
+
 .plug__items {
   display: -webkit-box;
   display: -ms-flexbox;
