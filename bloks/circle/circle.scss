@@ -1,0 +1,13 @@
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+
+  &_colorDarkOrange {
+    background: var(--colorDarkOrange);
+  }
+
+  &_widthx1 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

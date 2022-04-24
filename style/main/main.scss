@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import url(../../bloks/wrapper/wrapper.css);
+@import url(../../bloks/header-top/header-top.css);
+@import url(../../bloks/header/header.css);
+@import url(../../bloks/business-card/business-card.css);
 @import url(../../bloks/color-dark-orange/color-dark-orange.css);
+@import url(../../bloks/circle/circle.css);
+@import url(../../bloks/text/text.css);
+@import url(../../bloks/nav/nav.css);
+@import url(../../bloks/title/title.css);
 *,
 *::before,
 *::after {
@@ -74,116 +82,4 @@ html {
   html {
     font-size: 1vw;
   }
-}
-
-.wrapper {
-  max-width: 1920px;
-  font-family: 'Montserrat';
-}
-
-.header-top {
-  padding: 4rem 5.5rem 3.5rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-top__title {
-  color: #26292d;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: -1.4rem;
-  line-height: 2.2;
-}
-
-.header-top__text {
-  color: #181818;
-  font-size: 1rem;
-}
-
-.header-top__items {
-  display: flex;
-  align-items: flex-start;
-  gap: 4rem;
-}
-
-.text {
-  font-size: 1rem;
-}
-
-.circle {
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.circle_colorDarkOrange {
-  background: var(--colorDarkOrange);
-}
-
-.circle_widthx1 {
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.header-top__item {
-  width: 22rem;
-  padding-left: 2rem;
-  border-left: 2px solid #C4C4C4;
-}
-
-.header-top__logo {
-  width: 20.7rem;
-}
-
-.header {
-  background: var(--colorBlue);
-  padding: 2rem 5.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav {
-  width: 60rem;
-}
-
-.nav__container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__link {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1rem;
-  transition: 0.4s;
-}
-
-.nav__link:hover {
-  opacity: 0.6;
-  transition: 0.4s;
-}
-
-.nav__button {
-  padding: 1.2rem 2.5rem;
-  background: #37409E;
-  border: none;
-  cursor: pointer;
-  color: #fff;
-  transition: 0.4s;
-  font-weight: 700;
-}
-
-.nav__button:hover {
-  transition: 0.4s;
-  background: #1f2891;
-}
-
-.business-card {
-  padding: 2rem 5.5rem 8rem;
-  background: #2E368B;
-}
-
-.title {
-  color: #000;
 }

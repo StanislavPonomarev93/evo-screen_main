@@ -1,0 +1,14 @@
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle_colorDarkOrange {
+  background: var(--colorDarkOrange);
+}
+
+.circle_widthx1 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+/*# sourceMappingURL=circle.css.map */

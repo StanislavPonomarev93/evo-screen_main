@@ -1,0 +1,43 @@
+.header-top {
+  padding: 4rem 5.5rem 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-top__title {
+  color: #26292d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: -1.4rem;
+  line-height: 2.2;
+}
+
+.header-top__text {
+  color: #181818;
+  font-size: 1rem;
+}
+
+.header-top__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 4rem;
+}
+
+.header-top__item {
+  width: 22rem;
+  padding-left: 2rem;
+  border-left: 2px solid #C4C4C4;
+}
+
+.header-top__logo {
+  width: 20.7rem;
+}
+/*# sourceMappingURL=header-top.css.map */

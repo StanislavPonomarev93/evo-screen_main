@@ -1,0 +1,39 @@
+.nav {
+  width: 60rem;
+}
+
+.nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.nav__link:hover {
+  opacity: 0.6;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.nav__button {
+  padding: 1.2rem 2.5rem;
+  background: #37409E;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-weight: 700;
+}
+/*# sourceMappingURL=nav.css.map */

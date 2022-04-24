@@ -1,0 +1,36 @@
+.nav {
+  width: 60rem;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 0.4s;
+  }
+
+  &__link:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+  }
+
+  &__button {
+    padding: 1.2rem 2.5rem;
+    background: #37409E;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s;
+    font-weight: 700;
+  }
+
+  &__button:hover {
+    transition: 0.4s;
+    background: #1f2891;
+  }
+}
