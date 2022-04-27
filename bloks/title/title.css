@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=title.css.map */
+.title {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.title_color-white {
+  color: #fff;
+}
+
+.title_margin-topx1 {
+  margin-top: 8.2rem;
+}
+
+.title_margin-topx2 {
+  margin-top: 1.4rem;
+}
+
+.title_margin-topx3 {
+  margin-top: 1rem;
+}
+
+.title_margin-topx4 {
+  margin-top: 2rem;
+}
+
+.title_font-sizex1 {
+  font-size: 3.2rem;
+}
+
+.title_font-sizex2 {
+  font-size: 1.3rem;
+}
+
+.title_font-sizex3 {
+  font-size: 2rem;
+}
+
+.title_font-sizex4 {
+  font-size: 1.87rem;
+}
+
+.title_font-sizex5 {
+  font-size: 1.12rem;
+}
+
+.title_extra-bold {
+  font-weight: 800;
+}
+/*# sourceMappingURL=title.css.map */

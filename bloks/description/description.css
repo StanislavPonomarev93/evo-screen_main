@@ -1,0 +1,19 @@
+.description {
+  background: var(--colorLightGray);
+  padding: 8.9rem 5.5rem 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.description__container {
+  margin-right: 13.4rem;
+}
+
+.description_bold {
+  font-weight: 700;
+}
+/*# sourceMappingURL=description.css.map */

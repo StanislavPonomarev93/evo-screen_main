@@ -1,3 +1,43 @@
 .text {
   font-size: 1rem;
+
+  &_font-sizex1 {
+    font-size: 1.2rem;
+  }
+
+  &_font-sizex2 {
+    font-size: 0.87rem;
+  }
+
+  &_margin-topx1 {
+    margin-top: 1.2rem;
+  }
+
+  &_margin-topx2 {
+    margin-top: 1.6rem;
+  }
+
+  &_margin-topx3 {
+    margin-top: 0.5rem;
+  }
+
+  &_margin-leftx1 {
+    margin-left: 1.2rem;
+  }
+
+  &_medium {
+    font-weight: 500;
+  }
+
+  &_colorRed {
+    color: #FF0000;;
+  }
+
+  &_widthx1 {
+    width: 25rem;
+  }
+
+  &_line-heightx1 {
+    line-height: 1.5rem
+  }
 }

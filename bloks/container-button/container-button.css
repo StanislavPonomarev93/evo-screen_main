@@ -1,0 +1,24 @@
+.container-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-button_margin-topx1 {
+  margin-top: 3rem;
+}
+
+.container-button_margin-topx2 {
+  margin-top: 1.7rem;
+}
+
+.container-button_not-flex {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 2rem;
+}
+/*# sourceMappingURL=container-button.css.map */

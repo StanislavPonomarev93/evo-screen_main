@@ -1,0 +1,25 @@
+.subtitle {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+
+  &_margin-topx1 {
+    margin-top: 1rem;
+  }
+
+  &_margin-topx2 {
+    margin-top: 2rem;
+  }
+
+  &_black {
+    color: #000;
+  }
+
+  &_bold {
+    font-weight: 700;
+  }
+
+  &_font-sizex1 {
+    font-size: 2rem;
+  }
+}

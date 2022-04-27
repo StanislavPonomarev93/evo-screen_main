@@ -1,0 +1,22 @@
+.gallery {
+  padding: 5.2rem 0 6rem 5.5rem;
+  background: var(--colorLightGray);
+  overflow: hidden;
+}
+
+.gallery__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-right: -5rem;
+  margin-top: 1.5rem;
+}
+
+.gallery__item {
+  border-radius: 1rem;
+  width: 100%;
+  height: 18rem;
+}
+/*# sourceMappingURL=gallery.css.map */

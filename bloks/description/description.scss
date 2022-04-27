@@ -1,0 +1,14 @@
+.description {
+  background: var(--colorLightGray);
+  padding: 8.9rem 5.5rem 12rem;
+  display: flex;
+  justify-content: flex-end;
+
+  &__container {
+    margin-right: 13.4rem;
+  }
+
+  &_bold {
+    font-weight: 700;
+  }
+}

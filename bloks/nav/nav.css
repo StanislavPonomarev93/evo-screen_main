@@ -9,6 +9,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 1rem;
 }
 
 .nav__link {
@@ -28,12 +29,22 @@
 
 .nav__button {
   padding: 1.2rem 2.5rem;
-  background: #37409E;
+  background: #37409e;
   border: none;
   cursor: pointer;
   color: #fff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   font-weight: 700;
+}
+
+.nav__button:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background: #1f2891;
+}
+
+.nav_width100 {
+  width: 100%;
 }
 /*# sourceMappingURL=nav.css.map */

@@ -1,13 +1,23 @@
 .circle {
   border-radius: 50%;
   display: inline-block;
+  flex-shrink: 0;
 
   &_colorDarkOrange {
     background: var(--colorDarkOrange);
   }
 
+  &_colorMediumBlue {
+    background: var(--colorMediumBlue);
+  }
+
   &_widthx1 {
     width: 2.5rem;
     height: 2.5rem;
+  }
+
+  &_widthx2 {
+    width: 5rem;
+    height: 5rem;
   }
 }

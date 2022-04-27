@@ -1,4 +1,21 @@
 .business-card {
-  padding: 2rem 5.5rem 8rem;
+  padding: 4.7rem 5.5rem 11.8rem;
   background: #2E368B;
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__label {
+    margin-left: 1rem;
+  }
+
+  &__title_min {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  &_bold {
+    font-weight: 700;
+  }
 }

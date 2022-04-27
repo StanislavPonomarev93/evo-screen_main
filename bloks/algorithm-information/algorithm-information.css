@@ -1,0 +1,61 @@
+.algorithm-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 1rem;
+  padding-bottom: 5.5rem;
+}
+
+.algorithm-information__dashboard-container {
+  background: #262822;
+  padding: 4rem 0 1rem;
+  width: 54.2rem;
+  position: relative;
+  border-radius: 0.8rem;
+}
+
+.algorithm-information__line {
+  position: absolute;
+  width: 100%;
+  border-bottom: 1rem solid #fff;
+  top: 0.8rem;
+  left: 0;
+}
+
+.algorithm-information__phone-container {
+  position: absolute;
+  right: -4.2rem;
+  bottom: -5.4rem;
+  width: 9.8rem;
+}
+
+.algorithm-information__dashboard-img {
+  width: 100%;
+  height: 31rem;
+}
+
+.algorithm-information__phone-img {
+  position: absolute;
+  top: 2.5rem;
+  left: 0.7rem;
+  width: 8.44rem;
+  height: 14rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.algorithm-information__sidbar {
+  width: 27.5rem;
+}
+
+.algorithm-information__container-button {
+  margin-bottom: 3.3rem;
+}
+
+.algorithm-information_margin-topx1 {
+  margin-top: 3rem;
+}
+/*# sourceMappingURL=algorithm-information.css.map */

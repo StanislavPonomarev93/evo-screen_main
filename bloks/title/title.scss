@@ -1,3 +1,49 @@
 .title {
   color: #000;
+  display: flex;
+  align-items: flex-start;
+
+  &_color-white {
+    color: #fff;
+  }
+
+  &_margin-topx1 {
+    margin-top: 8.2rem;
+  }
+
+  &_margin-topx2 {
+    margin-top: 1.4rem;
+  }
+
+  &_margin-topx3 {
+    margin-top: 1rem;
+  }
+
+  &_margin-topx4 {
+    margin-top: 2rem;
+  }
+
+  &_font-sizex1 {
+    font-size: 3.2rem;
+  }
+
+  &_font-sizex2 {
+    font-size: 1.3rem;
+  }
+
+  &_font-sizex3 {
+    font-size: 2rem;
+  }
+
+  &_font-sizex4 {
+    font-size: 1.87rem;
+  }
+
+  &_font-sizex5 {
+    font-size: 1.12rem;
+  }
+
+  &_extra-bold {
+    font-weight: 800;
+  }
 }

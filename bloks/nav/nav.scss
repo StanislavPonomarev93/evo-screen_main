@@ -4,6 +4,7 @@
   &__container {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   &__link {
@@ -21,16 +22,20 @@
 
   &__button {
     padding: 1.2rem 2.5rem;
-    background: #37409E;
+    background: #37409e;
     border: none;
     cursor: pointer;
     color: #fff;
     transition: 0.4s;
     font-weight: 700;
+
+    &:hover {
+      transition: 0.4s;
+      background: #1f2891;
+    }
   }
 
-  &__button:hover {
-    transition: 0.4s;
-    background: #1f2891;
+  &_width100 {
+    width: 100%;
   }
 }

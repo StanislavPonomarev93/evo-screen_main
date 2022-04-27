@@ -1,0 +1,26 @@
+.subtitle {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.subtitle_margin-topx1 {
+  margin-top: 1rem;
+}
+
+.subtitle_margin-topx2 {
+  margin-top: 2rem;
+}
+
+.subtitle_black {
+  color: #000;
+}
+
+.subtitle_bold {
+  font-weight: 700;
+}
+
+.subtitle_font-sizex1 {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=subtitle.css.map */

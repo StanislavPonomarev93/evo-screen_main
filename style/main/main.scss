@@ -9,6 +9,24 @@
 @import url(../../bloks/text/text.css);
 @import url(../../bloks/nav/nav.css);
 @import url(../../bloks/title/title.css);
+@import url(../../bloks/subtitle/subtitle.css);
+@import url(../../bloks/label/label.css);
+@import url(../../bloks/container-button/container-button.css);
+@import url(../../bloks/button/button.css);
+@import url(../../bloks/description/description.css);
+@import url(../../bloks/algorithm-description/algorithm-description.css);
+@import url(../../bloks/algorithm-information/algorithm-information.css);
+@import url(../../bloks/items/items.css);
+@import url(../../bloks/info-nav/info-nav.css);
+@import url(../../bloks/gallery/gallery.css);
+@import url(../../bloks/annotation/annotation.css);
+@import url(../../bloks/calculator/calculator.css);
+@import url(../../bloks/about/about.css);
+@import url(../../bloks/questions/questions.css);
+@import url(../../bloks/news/news.css);
+@import url(../../bloks/about-team/about-team.css);
+@import url(../../bloks/footer/footer.css);
+
 *,
 *::before,
 *::after {
@@ -48,7 +66,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -57,6 +75,17 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+i {
+  font-style: normal;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+  border: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -72,6 +101,7 @@ select {
   --colorBlue: #262472;
   --colorMediumBlue: #2e368b;
   --colorDarkOrange: #ff9959;
+  --colorLightGray: #f4f5f9;
 }
 
 html {

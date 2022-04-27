@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=wrapper.css.map */
+.wrapper {
+  max-width: 1920px;
+  font-family: 'Montserrat';
+  margin: 0 auto;
+}
+/*# sourceMappingURL=wrapper.css.map */

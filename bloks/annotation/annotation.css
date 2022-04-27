@@ -1,0 +1,31 @@
+.annotation {
+  padding: 5.5rem;
+}
+
+.annotation__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 1.2rem;
+  padding-top: 2rem;
+}
+
+.annotation__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 24rem;
+}
+
+.annotation__border {
+  position: absolute;
+  border-bottom: 1px solid #000;
+  top: 0;
+  left: 38%;
+  width: 39%;
+}
+/*# sourceMappingURL=annotation.css.map */
