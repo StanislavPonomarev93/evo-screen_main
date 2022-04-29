@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,KAAK,EAAE,sBAAsB;CAC9B",
-    "sources": [
-        "color-dark-orange.scss"
-    ],
-    "names": [],
-    "file": "color-dark-orange.css"
-}
