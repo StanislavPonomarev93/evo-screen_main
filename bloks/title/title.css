@@ -28,6 +28,10 @@
   margin-top: 2rem;
 }
 
+.title_margin-topx5 {
+  margin-top: -1.4rem;
+}
+
 .title_font-sizex1 {
   font-size: 3.2rem;
 }
@@ -48,7 +52,23 @@
   font-size: 1.12rem;
 }
 
+.title_font-sizex6 {
+  font-size: 1.5rem;
+}
+
+.title_semi-bold {
+  font-weight: 600;
+}
+
 .title_extra-bold {
   font-weight: 800;
+}
+
+.title_colorDimGray {
+  color: #26292d;
+}
+
+.title_not-flex {
+  display: inline-block;
 }
 /*# sourceMappingURL=title.css.map */

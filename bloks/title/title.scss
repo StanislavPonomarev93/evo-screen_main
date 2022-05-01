@@ -23,6 +23,10 @@
     margin-top: 2rem;
   }
 
+  &_margin-topx5 {
+    margin-top: -1.4rem;
+  }
+
   &_font-sizex1 {
     font-size: 3.2rem;
   }
@@ -43,7 +47,23 @@
     font-size: 1.12rem;
   }
 
+  &_font-sizex6 {
+    font-size: 1.5rem;
+  }
+
+  &_semi-bold {
+    font-weight: 600;
+  }
+
   &_extra-bold {
     font-weight: 800;
+  }
+
+  &_colorDimGray {
+    color: #26292d;
+  }
+
+  &_not-flex {
+    display: inline-block;
   }
 }

@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 @import url(../../bloks/wrapper/wrapper.css);
-@import url(../../bloks/header-top/header-top.css);
+@import url(../../bloks/header-content/header-content.css);
+@import url(../../bloks/logo/logo.css);
 @import url(../../bloks/header/header.css);
 @import url(../../bloks/business-card/business-card.css);
 @import url(../../bloks/circle/circle.css);
