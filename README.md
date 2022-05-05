@@ -1,1 +1,1 @@
-- [Главная](https://stanislavponomarev93.github.io/evo-screen_main/index.html)
+- [Главная](https://stanislavponomarev93.github.io/evo-screen_main)

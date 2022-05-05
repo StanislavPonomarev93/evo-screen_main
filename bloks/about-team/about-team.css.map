@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,wEAAwE;EACpF,MAAM,EAAE,KAAK;CACd",
-    "sources": [
-        "about-team.scss"
-    ],
-    "names": [],
-    "file": "about-team.css"
-}

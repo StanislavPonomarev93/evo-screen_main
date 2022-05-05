@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACrB,OAAO,EAAE,kBAAkB;CAC5B",
-    "sources": [
-        "algorithm-description.scss"
-    ],
-    "names": [],
-    "file": "algorithm-description.css"
-}

@@ -1,0 +1,33 @@
+{
+  "name": "evo-screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanislavPonomarev93/evo-screen_main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StanislavPonomarev93/evo-screen_main/issues"
+  },
+  "homepage": "https://github.com/StanislavPonomarev93/evo-screen_main",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gh-pages": "^3.2.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-bulk-importer": "^3.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "merge-stream": "^2.0.0",
+    "sass": "^1.51.0"
+  }
+}

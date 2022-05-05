@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--colorDarkOrange) #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--colorDarkOrange);
+  border-radius: 5px;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+i {
+  font-style: normal;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+  border: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:root {
+  --colorBlue: #262472;
+  --colorMediumBlue: #2e368b;
+  --colorBlueViolet: #4b4cdd;
+  --colorViolet: #a45ac8;
+  --colorFuchsia: #ea569c;
+  --colorGreen: #41917e;
+  --colorLightGreen: #78bc9c;
+  --colorOrange: #f88a64;
+  --colorDarkOrange: #ff9959;
+  --colorLightGray: #f4f5f9;
+  --colorSilver: #9e99d1;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 1vw;
+  }
+}
+
+.colorVioletPath path {
+  fill: var(--colorViolet);
+}
+.colorGreenPath path {
+  fill: var(--colorGreen);
+}
+.colorLightGreenPath path {
+  fill: var(--colorLightGreen);
+}
+.colorOrangePath path {
+  fill: var(--colorOrange);
+}
+.colorFuchsiaPath path {
+  fill: var(--colorFuchsia);
+}
+.colorBlueVioletPath path {
+  fill: var(--colorBlueViolet);
+}
+.colorViolet {
+  color: var(--colorViolet);
+}
+.colorBlueViolet {
+  color: var(--colorBlueViolet);
+}
+.colorFuchsia {
+  color: var(--colorFuchsia);
+}
+.colorOrange {
+  color: var(--colorOrange);
+}
+.colorDarkOrange {
+  color: var(--colorDarkOrange);
+}
+.colorLightGreen {
+  color: var(--colorLightGreen);
+}
+.colorGreen {
+  color: var(--colorGreen);
+}
+.backgroundViolet {
+  background: linear-gradient(90deg, #944cb8 0%, #b06cd2 100.01%);
+}
+.backgroundBlueViolet {
+  background: linear-gradient(90deg, #4b4cdd 0%, #944cb8 99.49%);
+}
+.backgroundFuchsia {
+  background: linear-gradient(90deg, #944cb8 16.67%, #ea569c 98.45%);
+}
+.backgroundOrange {
+  background: linear-gradient(83.82deg, #f04d37 -1.08%, #faa83f 98.88%);
+}
+.backgroundLightGreen {
+  background: linear-gradient(90deg, #ff9959 0%, #72be9f 100.01%);
+}
+.backgroundGreen {
+  background: linear-gradient(90deg, #78bc9c 0%, #41917e 100.01%);
+}
