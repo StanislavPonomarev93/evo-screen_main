@@ -9,13 +9,12 @@ import merge from 'merge-stream';
 const sass = gulpSass(dartSass);
 
 export const scss = () => {
-  const fonts = app.gulp.src('src/fonts/fonts.css');
   const cssMain = app.gulp.src('src/style.css');
   const scssAll = app.gulp.src('src/blocks/**/*.scss')
     .pipe(bulk())
     .pipe(sass())
 
-  return merge(fonts, cssMain, scssAll)
+  return merge(cssMain, scssAll)
     .pipe(prefixer(
       {
         overrideBrowserslist: ['last 8 versions'],
@@ -38,4 +37,3 @@ export const scss = () => {
     .pipe(concat('style.min.css'))
     .pipe(app.gulp.dest(app.path.build.css));
 }
-
