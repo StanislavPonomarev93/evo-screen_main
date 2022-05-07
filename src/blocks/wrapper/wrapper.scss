@@ -1,5 +1,15 @@
 .wrapper {
   max-width: 1600px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   margin: 0 auto;
+  animation: wrapper 5s linear;
+}
+
+@keyframes wrapper {
+  0%, 100% {
+    visibility: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+  }
 }
