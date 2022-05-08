@@ -5,6 +5,7 @@ import { reset } from "./gulp/tasks/reset.js";
 import { html } from "./gulp/tasks/html.js";
 import { scss } from "./gulp/tasks/scss.js";
 import { img } from "./gulp/tasks/img.js";
+import { fonts } from "./gulp/tasks/fonts.js"
 
 global.app = {
   path: path,
@@ -17,7 +18,7 @@ function watcher() {
   gulp.watch(path.watch.img, img);
 }
 
-const mainTasks = gulp.parallel(html, scss, img);
+const mainTasks = gulp.parallel(html, scss, img, fonts);
 
 const dev = gulp.series(reset, mainTasks, watcher)
 
