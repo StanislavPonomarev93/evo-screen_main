@@ -1,0 +1,14 @@
+.link {
+  color: #fff;
+  transition: 0.6s;
+  line-height: 1.5;
+  font-size: 1.1rem;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &_margin-top-1 {
+    margin-top: 2rem;
+  }
+}

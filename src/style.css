@@ -1,43 +1,44 @@
+@import url(../node_modules/swiper/swiper-bundle.min.js);
+
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Light.woff2') format('woff2');
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Regular.woff2') format('woff2');
-  font-weight: normal;
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Medium.woff2') format('woff2');
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-SemiBold.woff2') format('woff2');
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Bold.woff2') format('woff2');
-  font-weight: bold;
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
-
 
 *,
 *::before,
@@ -72,6 +73,7 @@ a {
 
 img {
   width: 100%;
+  display: inline-block;
 }
 
 body,
@@ -79,6 +81,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 li,
 figure,
@@ -90,7 +94,7 @@ dd {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 101vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
 }
@@ -123,17 +127,22 @@ button:focus {
 }
 
 :root {
-  --colorBlue: #262472;
-  --colorMediumBlue: #2e368b;
+  --colorBlue: #273bac;
   --colorBlueViolet: #4b4cdd;
+  --colorDodgerBlue: #0098b0;
   --colorViolet: #a45ac8;
   --colorFuchsia: #ea569c;
   --colorGreen: #41917e;
   --colorLightGreen: #78bc9c;
+  --colorSeaGreen: #33945d;
   --colorOrange: #f88a64;
   --colorDarkOrange: #ff9959;
+  --colorTomato: #ff7759;
+  --colorPurple: #872268;
   --colorLightGray: #f4f5f9;
   --colorSilver: #9e99d1;
+  --colorWhiteSmoke: #f5f6f8;
+  --colorBlackGray: #3f464c;
 }
 
 html {

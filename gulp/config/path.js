@@ -8,18 +8,21 @@ export const path = {
   build: {
     html: `${builderFolder}/`,
     css: `${builderFolder}/`,
+    js: `${builderFolder}/`,
     img: `${builderFolder}/img/`,
     fonts: `${builderFolder}/fonts/`
   },
   src: {
     html: `${srcFolder}/*.html`,
     css: `${srcFolder}/blocks/**/*.scss`,
+    js: `${srcFolder}/app.js`,
     img: `${srcFolder}/img/**/*.*`,
     fonts: `${srcFolder}/fonts/**/*.*`
   },
   watch: {
     html: `${srcFolder}/*.html`,
     scss: `${srcFolder}/blocks/**/*.scss`,
+    js: `${srcFolder}/**/*.js`,
     img: `${srcFolder}/img/**/*.*`,
     fonts: `${srcFolder}/fonts/**/*.*`
   },

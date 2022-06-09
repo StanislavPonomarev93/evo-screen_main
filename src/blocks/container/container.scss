@@ -1,0 +1,309 @@
+.container {
+  display: flex;
+
+  &_column {
+    flex-direction: column;
+  }
+
+  &_align-items-1 {
+    align-items: flex-start;
+  }
+
+  &_align-items-2 {
+    align-items: center;
+  }
+
+  &_justify-content-1 {
+    justify-content: space-between;
+  }
+
+  &_flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  &_grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  &_width-1 {
+    width: 30rem;
+  }
+
+  &_width-2 {
+    width: 100%;
+  }
+
+  &__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    &_padding-bottom-1 {
+      padding-bottom: 4rem;
+    }
+  }
+
+  &__inner-x,
+  &__inner-f,
+  &__inner-d {
+    width: 40.5%;
+  }
+
+  &__inner-s,
+  &__inner-h,
+  &__inner-c {
+    width: 59.5%;
+  }
+
+  &__inner-s {
+    position: relative;
+    background: url(img/virus.png);
+  }
+
+  &__inner-x {
+    padding: 0 0 6.1rem 5.5rem;
+  }
+
+  &__inner-d {
+    padding: 6.5rem 5.5rem;
+  }
+
+  &__inner-j {
+    padding: 6.5rem 5.5rem 4rem;
+  }
+
+  &__inner-f {
+    background: url(img/doctor.png);
+  }
+
+  &__inner-g {
+    background: var(--colorTomato);
+    width: 11rem;
+    height: 11rem;
+    display: flex;
+    img {
+      width: 60%;
+      margin: auto;
+    }
+  }
+
+  &__inner-c {
+    background: #262472;
+    display: flex;
+    img {
+      width: 82%;
+      margin: auto;
+    }
+  }
+
+  &__inner-l {
+    background: #439bf2;
+    width: 17.5rem;
+    padding: 3rem 2rem;
+  }
+
+  &__inner-h {
+    padding: 6rem 5.5rem 7.5rem;
+  }
+
+  &__inner-q {
+    min-width: 52.5%;
+  }
+
+  &__inner-z {
+    width: 20rem;
+  }
+
+  &__inner-y {
+    width: 30%;
+  }
+
+  &__inner-t {
+    width: 47%;
+  }
+
+  &__inner-o {
+    width: 37.2%;
+  }
+
+  &__inner-w {
+    width: 36.7%;
+  }
+
+  &__inner-a {
+    width: 26.1%;
+  }
+
+  &__inner-n {
+    background: var(--colorWhiteSmoke);
+    border-radius: 1.2rem;
+    width: 67%;
+    flex: none;
+  }
+
+  &__inner-r {
+    width: 31.4%;
+    margin-top: 2.5rem;
+  }
+
+  &__inner-u {
+    background: var(--colorBlue);
+  }
+
+  &__inner-i {
+    background: #439BF2;
+  }
+
+  &__inner-u,
+  &__inner-i {
+    width: 50%;
+    padding: 3rem;
+  }
+
+  &__inner-m {
+    width: 65%;
+  }
+
+  &__inner-v {
+    width: 31%;
+  }
+
+  &__inner-q,
+  &__inner-e,
+  &__inner-z,
+  &__inner-b {
+    position: relative;
+  }
+
+  &__inner-s,
+  &__inner-f {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__aim {
+    position: absolute;
+    top: 50%;
+    left: -6rem;
+    width: 60rem;
+    transform: translate(0, -50%);
+  }
+
+  &__mark {
+    position: absolute;
+    bottom: 6.3rem;
+    right: 5.4rem;
+    width: 2.5rem;
+  }
+
+  &_gap-1 {
+    column-gap: 0.7rem;
+  }
+
+  &_gap-2 {
+    column-gap: 1.5rem;
+  }
+
+  &_gap-3 {
+    column-gap: 2rem;
+  }
+
+  &_gap-4 {
+    column-gap: 6.6rem;
+  }
+
+  &_gap-5 {
+    column-gap: 1rem;
+  }
+
+  &_gap-6 {
+    column-gap: 6.2rem;
+  }
+
+  &_row-gap-1 {
+    row-gap: 1rem;
+  }
+
+  &_margin-top-1 {
+    margin-top: 4.4rem;
+  }
+
+  &_margin-top-2 {
+    margin-top: 4rem;
+  }
+
+  &_margin-top-3 {
+    margin-top: 2.6rem;
+  }
+
+  &_margin-top-4 {
+    margin-top: 3.5rem;
+  }
+
+  &_margin-top-5 {
+    margin-top: 1.4rem;
+  }
+
+  &_margin-top-6 {
+    margin-top: 2.7rem;
+  }
+
+  &_margin-top-7 {
+    margin-top: 2rem;
+  }
+
+  &_margin-top-8 {
+    margin-top: 3rem;
+  }
+
+  &_margin-1 {
+    margin: 15rem -7rem 0 auto;
+  }
+
+  &_padding-bottom-1 {
+    padding-bottom: 5rem;
+  }
+
+  &_padding-1 {
+    padding: 7rem 5.5rem;
+  }
+
+  &_padding-2 {
+    padding: 7rem 0 7.5rem 5.5rem;
+  }
+
+  &_padding-3 {
+    padding: 2.6rem 2.6rem 4.2rem;
+  }
+
+  &_padding-4 {
+    padding: 7rem 0 8.5rem 5.5rem;
+  }
+
+  &_padding-5 {
+    padding: 4rem 5.5rem;
+  }
+
+  &_padding-6 {
+    padding: 1.2rem 2rem;
+  }
+
+  &_colorWhiteSmoke {
+    background: var(--colorWhiteSmoke);
+  }
+
+  &_color-white-gray {
+    background: linear-gradient(0deg, var(--colorWhiteSmoke) 38%, #fff 38%);
+  }
+
+  &_colorBlue {
+    background: var(--colorBlue);
+  }
+
+  &_border-radius-1 {
+    border-radius: 1.2rem;
+  }
+}

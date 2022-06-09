@@ -1,0 +1,95 @@
+.icon {
+
+  &_prev:hover,
+  &_next:hover {
+    opacity: 0.7;
+  }
+
+  &_position-1 {
+    position: absolute;
+    top: 3.5rem;
+    left: 1.2rem;
+  }
+
+  &_position-2 {
+    position: absolute;
+    top: 1rem;
+    left: 1.2rem;
+  }
+
+  &_position-3 {
+    position: absolute;
+    top: 0;
+    right: 9.3rem;
+  }
+
+  &_position-4 {
+    position: absolute;
+    top: 0;
+    right: 5.5rem;
+  }
+
+  &_width-1 {
+    width: 8.5rem;
+  }
+
+  &_width-2 {
+    width: 6.4rem;
+  }
+
+  &_width-3 {
+    width: 11rem;
+  }
+
+  &_width-4 {
+    width: 3rem;
+  }
+
+  &_width-5 {
+    width: 2.6rem;
+  }
+
+  &_width-6 {
+    width: 4.6rem;
+  }
+
+  &_width-7 {
+    width: 4rem;
+  }
+
+  &_width-8 {
+    width: 14.5rem;
+  }
+
+  &_width-9 {
+    width: 5.5rem;
+  }
+
+  &_height-1 {
+    height: 2.5rem;
+  }
+
+  &_margin-top-1 {
+    margin-top: -0.7rem;
+  }
+
+  &_margin-top-2 {
+    margin-top: -1rem;
+  }
+
+  &_margin-top-3 {
+    margin-top: 3.3rem;
+  }
+
+  &_margin-top-4 {
+    margin-top: 4.3rem;
+  }
+
+  &_margin-top-5 {
+    margin-top: 1rem;
+  }
+
+  &_margin-left-1 {
+    margin-left: 1rem;
+  }
+}

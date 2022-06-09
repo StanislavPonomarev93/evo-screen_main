@@ -1,0 +1,23 @@
+.image {
+  object-fit: cover;
+  border-radius: 1.2rem;
+  &_height-1 {
+    height: 16rem;
+  }
+
+  &_height-2 {
+    height: 11.5rem;
+  }
+
+  &_height-3 {
+    height: 36rem;
+  }
+
+  &_margin-top-1 {
+    margin-top: -5rem;
+  }
+
+  &_display-block {
+    display: block;
+  }
+}

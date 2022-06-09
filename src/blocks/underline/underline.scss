@@ -1,0 +1,9 @@
+.underline {
+  border-bottom: 0.2rem solid var(--colorBlue);
+  width: 4rem;
+  display: inline-block;
+
+  &_colorWhite {
+    border-bottom: 0.2rem solid #fff;
+  }
+}

@@ -1,35 +1,112 @@
 .button {
-  width: 13rem;
-  padding: 1.1rem 0;
-  font-size: 1.1rem;
+  padding: 0.7rem 0;
+  border-radius: 1.3rem;
+  color: #fff;
+  text-align: center;
+  width: 10rem;
+  display: block;
+  line-height: 1;
+  font-weight: 500;
   transition: 0.4s;
   cursor: pointer;
-  background: #fff;
-  color: #000;
-  font-weight: 700;
 
-  &:hover {
+  &_colorTomato {
+    background: var(--colorTomato);
+  }
+
+  &_colorBlackGray {
+    background: var(--colorBlackGray);
+  }
+
+  &_colorBlue {
+    background: var(--colorBlue);
+  }
+
+  &_colorDodgerBlue {
+    background: var(--colorDodgerBlue);
+  }
+
+  &_colorSeaGreen {
+    background: var(--colorSeaGreen);
+  }
+
+  &_colorPurple {
+    background: var(--colorPurple);
+  }
+
+  &_margin-top-1 {
+    margin-top: 2rem;
+  }
+
+  &_margin-top-2 {
+    margin-top: 1rem;
+  }
+
+  &_margin-top-3 {
+    margin-top: 4rem;
+  }
+
+  &_margin-1 {
+    margin: 1.7rem 0 0 6.4rem;
+  }
+
+  &_position-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &_position-2 {
+    position: absolute;
+    bottom: -5rem;
+    left: 0;
+  }
+
+  &_position-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &_position-4 {
+    position: absolute;
+    top: 1.4rem;
+    left: 1.4rem;
+  }
+
+  &_width-1 {
+    width: 11rem;
+  }
+
+  &_width-2 {
+    width: 14rem;
+  }
+
+  &_width-3 {
+    width: 8rem;
+  }
+
+  &_width-4 {
+    width: 13rem;
+  }
+
+  &_font-size-1 {
+    font-size: 1.1rem
+  }
+
+  &_bold {
+    font-weight: 700;
+  }
+
+  &_padding-1 {
+    padding: 0.5rem 0;
+  }
+
+  &_cursor {
+    cursor: default;
+  }
+
+  &:not(.button_cursor):hover {
     opacity: 0.7;
-    transition: 0.4s;
-  }
-
-  &_dark-orange {
-    background: var(--colorDarkOrange);
-  }
-
-  &_color-medium-blue {
-    color: #342e6b;
-  }
-
-  &_margin-topx1 {
-    margin-top: 1.7rem;
-  }
-
-  &_margin-topx2 {
-    margin-top: 2.4rem;
-  }
-
-  &_margin-topx3 {
-    margin-top: 2.5rem;
   }
 }
