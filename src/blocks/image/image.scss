@@ -1,6 +1,7 @@
 .image {
   object-fit: cover;
   border-radius: 1.2rem;
+
   &_height-1 {
     height: 16rem;
   }
@@ -13,11 +14,37 @@
     height: 36rem;
   }
 
+  &_height-4 {
+    height: 48rem;
+  }
+
+  &_height-5 {
+    height: 40rem;
+  }
+
+  &_height-6 {
+    height: 65rem;
+  }
+
   &_margin-top-1 {
     margin-top: -5rem;
   }
 
+  &_margin-top-2 {
+    margin-top: 11rem;
+  }
+
+  &_border-radius-1 {
+    border-radius: 3rem 0 0 3rem !important;
+  }
+
   &_display-block {
     display: block;
+  }
+
+  @media (max-width: 720px) {
+    & {
+      border-radius: 3rem;
+    }
   }
 }

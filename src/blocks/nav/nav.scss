@@ -1,8 +1,8 @@
 .nav {
+  font-family: "Montserrat";
   display: flex;
   justify-content: space-between;
   padding: 2rem 5.5rem;
-  margin: 0 0 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -19,12 +19,47 @@
     color: var(--colorBlackGray);
     font-weight: 700;
     transition: 0.3s;
-    &:hover {
-      color: #ff741e;
+
+    @media (hover: none) {
+      &:hover {
+        color: var(--colorBlue);
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: #ff741e;
+      }
     }
   }
 
   &__link-active {
     color: var(--colorBlue);
+  }
+
+  &_mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    background: #eee;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 70%;
+    padding: 10rem;
+    overflow-y: auto;
+
+    .nav__menu {
+      flex-direction: column;
+      align-items: flex-end;
+
+      .nav__link {
+        font-size: 3rem;
+        line-height: 3;
+      }
+    }
   }
 }

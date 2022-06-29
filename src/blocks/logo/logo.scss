@@ -1,6 +1,11 @@
 .logo {
   width: 21.8rem;
   transition: 0.6s;
+  
+  &_width-1 {
+    width: 33.5rem;
+  }
+  
   &:hover {
     opacity: 0.7;
   }

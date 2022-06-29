@@ -27,6 +27,30 @@
     font-size: 1.4rem;
   }
 
+  &_font-size-7 {
+    font-size: 3.2rem;
+  }
+
+  &_font-size-8 {
+    font-size: 7rem;
+  }
+
+  &_font-size-9 {
+    font-size: 7.5rem;
+  }
+
+  &_font-size-10 {
+    font-size: 5rem;
+  }
+
+  &_font-size-11 {
+    font-size: 4.3rem;
+  }
+
+  &_font-size-12 {
+    font-size: 4rem;
+  }
+
   &_margin-top-1 {
     margin-top: 3.5rem;
   }
@@ -55,6 +79,22 @@
     margin-top: 2rem;
   }
 
+  &_margin-top-8 {
+    margin-top: 3rem;
+  }
+
+  &_margin-top-9 {
+    margin-top: 4rem;
+  }
+
+  &_margin-top-10 {
+    margin-top: 9rem;
+  }
+
+  &_margin-top-11 {
+    margin-top: 8rem;
+  }
+
   &_margin-bottom-1 {
     margin-bottom: 1.6rem;
   }
@@ -65,6 +105,10 @@
 
   &_margin-bottom-3 {
     margin-bottom: 3rem;
+  }
+
+  &_margin-bottom-4 {
+    margin-bottom: 5rem;
   }
 
   &_margin-left-1 {
@@ -97,5 +141,11 @@
 
   &_colorWhite {
     color: #fff;
+  }
+
+  &_position-1 {
+    position: absolute;
+    top: 22rem;
+    right: 10rem;
   }
 }

@@ -10,6 +10,10 @@
     font-weight: 600;
   }
 
+  &_medium {
+    font-weight: 500;
+  }
+
   &_font-size-1 {
     font-size: 1.5rem;
   }
@@ -38,6 +42,22 @@
     font-size: 1.2rem;
   }
 
+  &_font-size-8 {
+    font-size: 2.2rem;
+  }
+
+  &_font-size-9 {
+    font-size: 3.4rem;
+  }
+
+  &_font-size-10 {
+    font-size: 4rem;
+  }
+
+  &_font-size-11 {
+    font-size: 12rem;
+  }
+
   &_line-height-1 {
     line-height: 1.3;
   }
@@ -62,6 +82,26 @@
     margin-top: 2rem;
   }
 
+  &_margin-top-4 {
+    margin-top: 3rem;
+  }
+
+  &_margin-top-5 {
+    margin-top: 7rem;
+  }
+
+  &_margin-top-6 {
+    margin-top: 4rem;
+  }
+
+  &_margin-top-7 {
+    margin-top: 11rem;
+  }
+
+  &_margin-top-8 {
+    margin-top: 6rem;
+  }
+
   &_margin-left-1 {
     margin-left: 1rem;
   }
@@ -70,12 +110,30 @@
     margin-left: 3rem;
   }
 
+  &_margin-left-3 {
+    margin-left: 2rem;
+  }
+
+  &_margin-left-4 {
+    margin-left: 12rem;
+  }
+
   &_margin-1 {
     margin: 2rem 0 0 6.4rem;
   }
 
   &_margin-2 {
     margin: 2.7rem 0 0 6.5rem;
+  }
+
+  &_margin-3 {
+    margin: 7rem 0;
+  }
+
+  &_background-1 {
+    background: #262472;
+    padding: 4rem 5rem;
+    border-radius: 3rem 0 0 3rem;
   }
 
   &_colorBlue {
@@ -92,5 +150,9 @@
 
   &_width-1 {
     width: 27rem;
+  }
+
+  &_text-align-1 {
+    text-align: center;
   }
 }

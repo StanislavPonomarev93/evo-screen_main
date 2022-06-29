@@ -1,6 +1,6 @@
 .button {
   padding: 0.7rem 0;
-  border-radius: 1.3rem;
+  border-radius: 5rem;
   color: #fff;
   text-align: center;
   width: 10rem;
@@ -46,8 +46,28 @@
     margin-top: 4rem;
   }
 
+  &_margin-top-4 {
+    margin-top: 8rem;
+  }
+
+  &_margin-top-5 {
+    margin-top: 6rem;
+  }
+
+  &_margin-top-6 {
+    margin-top: 3rem;
+  }
+
+  &_margin-top-7 {
+    margin-top: 7rem;
+  }
+
   &_margin-1 {
     margin: 1.7rem 0 0 6.4rem;
+  }
+
+  &_margin-2 {
+    margin: 6rem 0 0;
   }
 
   &_position-1 {
@@ -74,6 +94,12 @@
     left: 1.4rem;
   }
 
+  &_position-5 {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+  }
+
   &_width-1 {
     width: 11rem;
   }
@@ -90,8 +116,28 @@
     width: 13rem;
   }
 
+  &_width-5 {
+    width: 44rem !important;
+  }
+
+  &_width-6 {
+    width: 26rem !important;
+  }
+
+  &_width-7 {
+    width: 41rem !important;
+  }
+
+  &_width-8 {
+    width: 29rem !important;
+  }
+
   &_font-size-1 {
-    font-size: 1.1rem
+    font-size: 1.1rem;
+  }
+
+  &_font-size-2 {
+    font-size: 4rem;
   }
 
   &_bold {
@@ -102,11 +148,23 @@
     padding: 0.5rem 0;
   }
 
+  &_padding-2 {
+    padding: 2rem 0 !important;
+  }
+
   &_cursor {
     cursor: default;
   }
 
   &:not(.button_cursor):hover {
     opacity: 0.7;
+  }
+
+  @media (max-width: 720px) {
+    & {
+      width: 32rem;
+      font-size: 2.5rem;
+      padding: 2.8rem 0;
+    }
   }
 }

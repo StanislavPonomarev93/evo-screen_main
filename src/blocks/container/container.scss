@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  position: relative;
 
   &_column {
     flex-direction: column;
@@ -27,12 +28,22 @@
     column-gap: 3rem;
   }
 
+  &_grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 11rem;
+  }
+
   &_width-1 {
     width: 30rem;
   }
 
   &_width-2 {
     width: 100%;
+  }
+
+  &_width-3 {
+    width: 62rem;
   }
 
   &__inner {
@@ -57,17 +68,36 @@
     width: 59.5%;
   }
 
+  &__inner-qw {
+    width: 49%;
+  }
+
   &__inner-s {
     position: relative;
     background: url(img/virus.png);
+
+    &_height-1 {
+      height: 66rem;
+      width: 100%;
+    }
   }
 
   &__inner-x {
     padding: 0 0 6.1rem 5.5rem;
+
+    &_2 {
+      padding: 10rem 6.5rem 9rem;
+      width: 100%;
+    }
   }
 
   &__inner-d {
     padding: 6.5rem 5.5rem;
+
+    &_2 {
+      width: 100%;
+      padding: 11rem 6.5rem;
+    }
   }
 
   &__inner-j {
@@ -83,6 +113,12 @@
     width: 11rem;
     height: 11rem;
     display: flex;
+
+    &_2 {
+      width: 23rem;
+      height: 23rem;
+    }
+
     img {
       width: 60%;
       margin: auto;
@@ -92,6 +128,12 @@
   &__inner-c {
     background: #262472;
     display: flex;
+
+    &_2 {
+      width: 100%;
+      padding: 10rem 0;
+    }
+
     img {
       width: 82%;
       margin: auto;
@@ -102,14 +144,29 @@
     background: #439bf2;
     width: 17.5rem;
     padding: 3rem 2rem;
+
+    &_2 {
+      width: 39rem;
+      padding: 5rem 3rem;
+    }
   }
 
   &__inner-h {
     padding: 6rem 5.5rem 7.5rem;
+
+    &_2 {
+      background: var(--colorWhiteSmoke);
+      padding: 11rem 6.5rem 15rem;
+      width: 100%;
+    }
   }
 
   &__inner-q {
     min-width: 52.5%;
+
+    &_margin-top-1 {
+      margin-top: 10rem;
+    }
   }
 
   &__inner-z {
@@ -118,10 +175,20 @@
 
   &__inner-y {
     width: 30%;
+
+    &_2 {
+      width: 100%;
+      margin-top: 9rem;
+    }
   }
 
   &__inner-t {
     width: 47%;
+
+    &_2 {
+      width: 100%;
+      margin-top: 10rem;
+    }
   }
 
   &__inner-o {
@@ -153,13 +220,18 @@
   }
 
   &__inner-i {
-    background: #439BF2;
+    background: #439bf2;
   }
 
   &__inner-u,
   &__inner-i {
     width: 50%;
     padding: 3rem;
+
+    &_2 {
+      width: 100%;
+      padding: 7rem;
+    }
   }
 
   &__inner-m {
@@ -190,6 +262,11 @@
     left: -6rem;
     width: 60rem;
     transform: translate(0, -50%);
+
+    &_2 {
+      width: 100rem;
+      left: -10rem;
+    }
   }
 
   &__mark {
@@ -223,8 +300,24 @@
     column-gap: 6.2rem;
   }
 
+  &_gap-7 {
+    column-gap: 2.7rem;
+  }
+
+  &_gap-8 {
+    column-gap: 4rem;
+  }
+
   &_row-gap-1 {
     row-gap: 1rem;
+  }
+
+  &_row-gap-2 {
+    row-gap: 7rem;
+  }
+
+  &_row-gap-3 {
+    row-gap: 3rem;
   }
 
   &_margin-top-1 {
@@ -259,8 +352,44 @@
     margin-top: 3rem;
   }
 
+  &_margin-top-9 {
+    margin-top: 1rem;
+  }
+
+  &_margin-top-10 {
+    margin-top: 6rem;
+  }
+
+  &_margin-top-11 {
+    margin-top: 8rem;
+  }
+
+  &_margin-top-12 {
+    margin-top: 10.5rem;
+  }
+
+  &_margin-top-13 {
+    margin-top: 5rem;
+  }
+
+  &_margin-top-14 {
+    margin-top: 11rem;
+  }
+
+  &_margin-top-15 {
+    margin-top: 7rem;
+  }
+
+  &_margin-bottom-1 {
+    margin-bottom: 1rem;
+  }
+
   &_margin-1 {
     margin: 15rem -7rem 0 auto;
+  }
+
+  &_margin-2 {
+    margin: 47rem 0 0 auto;
   }
 
   &_padding-bottom-1 {
@@ -289,6 +418,38 @@
 
   &_padding-6 {
     padding: 1.2rem 2rem;
+  }
+
+  &_padding-7 {
+    padding: 3.4rem 5.5rem 2.2rem;
+  }
+
+  &_padding-8 {
+    padding: 2.5rem 0;
+  }
+
+  &_padding-9 {
+    padding: 3rem 6rem;
+  }
+
+  &_padding-10 {
+    padding: 3rem 6rem 6rem;
+  }
+
+  &_padding-11 {
+    padding: 11rem 6.5rem;
+  }
+
+  &_padding-12 {
+    padding: 10rem 0 0 5rem;
+  }
+
+  &_padding-13 {
+    padding: 7rem 6.5rem 15rem;
+  }
+
+  &_padding-14 {
+    padding: 11rem 0 11rem 6.5rem;
   }
 
   &_colorWhiteSmoke {

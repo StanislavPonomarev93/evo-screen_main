@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
-    "swiper": "^8.2.2"
+    "swiper": "^8.2.5"
   }
 }

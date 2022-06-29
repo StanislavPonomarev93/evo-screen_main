@@ -4,4 +4,12 @@
   border-radius: 50%;
   background: #45b0ed;
   display: inline-block;
+
+  &_width-1 {
+    width: 3.3rem;
+  }
+
+  &_height-1 {
+    height: 3.3rem;
+  }
 }
