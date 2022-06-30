@@ -11,12 +11,14 @@ navLinks.forEach((link) => {
     e.preventDefault();
     document.querySelector('.nav__link-active').classList.remove('nav__link-active');
     link.classList.add('nav__link-active');
-    wrapper.style.transform = 'translateX(0)';
-    navMob.style.transform = 'translateX(-100%)';
-    document.getElementById(link.getAttribute('href').substring(1)).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
+    navMob.style.transform = 'translateX(100%)';
+    setTimeout(() => {
+      document.getElementById(link.getAttribute('href').substring(1)).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }, 500)
+
   });
 });
 
