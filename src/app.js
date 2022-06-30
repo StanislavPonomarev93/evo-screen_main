@@ -69,3 +69,11 @@ if (iconMenu) {
     }
   });
 }
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth <= 720) {
+    window.location = "https://stanislavponomarev93.github.io/evo-screen_main/mob.html";
+  } else {
+    window.location = "https://stanislavponomarev93.github.io/evo-screen_main/index.html";
+  }
+});
