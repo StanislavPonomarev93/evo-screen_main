@@ -94,10 +94,9 @@ dd {
 }
 
 body {
-  min-height: 101vh;
+  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  overflow-x: hidden;
 }
 
 input,

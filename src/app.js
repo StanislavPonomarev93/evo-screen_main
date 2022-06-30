@@ -5,7 +5,6 @@ const wrapper = document.querySelector('.wrapper');
 
 
 let swipeX;
-let wrapperX;
 
 navLinks.forEach((link) => {
   link.addEventListener('click', (e) => {
@@ -47,28 +46,23 @@ const swiper_f = new Swiper('.swiper-f', {
 
 if (iconMenu) {
   iconMenu.addEventListener('click', (e) => {
-    wrapper.style.transform = 'translateX(70%)';
     navMob.style.transform = 'translateX(0)';
   });
 
   navMob.addEventListener('touchstart', (e) => {
     swipeX = e.targetTouches[0].pageX;
-    wrapperX = wrapper.getBoundingClientRect().x;
   });
 
   navMob.addEventListener('touchmove', (e) => {
-    if (e.targetTouches[0].pageX <= swipeX) {
-      wrapper.style.transform = `translateX(${wrapperX - (swipeX - e.targetTouches[0].pageX)}px)`;
-      navMob.style.transform = `translateX(-${swipeX - e.targetTouches[0].pageX}px)`;
+    if (e.targetTouches[0].pageX >= swipeX) {
+      navMob.style.transform = `translateX(${e.targetTouches[0].pageX - swipeX}px)`;
     }
   });
 
   navMob.addEventListener('touchend', (e) => {
-    if (e.changedTouches[0].pageX < swipeX - 50) {
-      wrapper.style.transform = 'translateX(0)';
-      navMob.style.transform = 'translateX(-100%)';
+    if (e.changedTouches[0].pageX - swipeX > 10) {
+      navMob.style.transform = 'translateX(100%)';
     } else {
-      wrapper.style.transform = 'translateX(70%)';
       navMob.style.transform = 'translateX(0)';
     }
   });
