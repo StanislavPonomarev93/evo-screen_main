@@ -97,6 +97,7 @@ body {
   min-height: 101vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  overflow-x: hidden;
 }
 
 input,
@@ -146,7 +147,6 @@ button:focus {
 }
 
 html {
-  overflow-x: hidden;
   font-size: 16px;
 }
 
