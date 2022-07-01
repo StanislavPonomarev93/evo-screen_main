@@ -1,3 +1,4 @@
+const body = document.querySelector('body');
 const navLinks = document.querySelectorAll('.nav__link');
 const iconMenu = document.querySelector('.icon-menu');
 const navMob = document.querySelector('.nav_mobile');
@@ -12,6 +13,7 @@ navLinks.forEach((link) => {
     document.querySelector('.nav__link-active').classList.remove('nav__link-active');
     link.classList.add('nav__link-active');
     navMob.style.transform = 'translateX(100%)';
+    body.style.overflow = 'auto';
     setTimeout(() => {
       document.getElementById(link.getAttribute('href').substring(1)).scrollIntoView({
         behavior: 'smooth',
@@ -49,6 +51,7 @@ const swiper_f = new Swiper('.swiper-f', {
 if (iconMenu) {
   iconMenu.addEventListener('click', (e) => {
     navMob.style.transform = 'translateX(0)';
+    body.style.overflow = 'hidden';
   });
 
   navMob.addEventListener('touchstart', (e) => {
@@ -64,16 +67,19 @@ if (iconMenu) {
   navMob.addEventListener('touchend', (e) => {
     if (e.changedTouches[0].pageX - swipeX > 10) {
       navMob.style.transform = 'translateX(100%)';
+      body.style.overflow = 'auto';
     } else {
       navMob.style.transform = 'translateX(0)';
     }
   });
-}
+};
 
-window.addEventListener('resize', () => {
-  if (window.innerWidth <= 720) {
-    window.location = "https://stanislavponomarev93.github.io/evo-screen_main/mob.html";
+screen.orientation.addEventListener('change', () => {
+  if (screen.width > 720) {
+    console.log(1);
+    // window.location = "https://stanislavponomarev93.github.io/evo-screen_main/index.html";
   } else {
-    window.location = "https://stanislavponomarev93.github.io/evo-screen_main/index.html";
+    console.log(2);
+    // window.location = "https://stanislavponomarev93.github.io/evo-screen_main/mob.html";
   }
 });

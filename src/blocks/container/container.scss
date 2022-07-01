@@ -93,11 +93,6 @@
 
   &__inner-d {
     padding: 6.5rem 5.5rem;
-
-    &_2 {
-      width: 100%;
-      padding: 11rem 6.5rem;
-    }
   }
 
   &__inner-j {
@@ -153,12 +148,6 @@
 
   &__inner-h {
     padding: 6rem 5.5rem 7.5rem;
-
-    &_2 {
-      background: var(--colorWhiteSmoke);
-      padding: 11rem 6.5rem 15rem;
-      width: 100%;
-    }
   }
 
   &__inner-q {
@@ -230,7 +219,7 @@
 
     &_2 {
       width: 100%;
-      padding: 7rem;
+      padding: 6.3rem 7rem;
     }
   }
 
@@ -437,7 +426,7 @@
   }
 
   &_padding-11 {
-    padding: 11rem 6.5rem;
+    padding: 11rem 6.5rem 15rem;
   }
 
   &_padding-12 {
@@ -450,6 +439,10 @@
 
   &_padding-14 {
     padding: 11rem 0 11rem 6.5rem;
+  }
+
+  &_padding-15 {
+    padding: 11rem 6.5rem;
   }
 
   &_colorWhiteSmoke {

@@ -66,10 +66,6 @@
     margin: 1.7rem 0 0 6.4rem;
   }
 
-  &_margin-2 {
-    margin: 6rem 0 0;
-  }
-
   &_position-1 {
     position: absolute;
     bottom: 0;
@@ -125,11 +121,15 @@
   }
 
   &_width-7 {
-    width: 41rem !important;
+    width: 44rem !important;
   }
 
   &_width-8 {
     width: 29rem !important;
+  }
+
+  &_width-9 {
+    width: 38.7rem !important;
   }
 
   &_font-size-1 {
@@ -150,6 +150,10 @@
 
   &_padding-2 {
     padding: 2rem 0 !important;
+  }
+
+  &_padding-3 {
+    padding: 3.25rem 0 !important;
   }
 
   &_cursor {
