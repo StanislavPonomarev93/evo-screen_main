@@ -1,3 +1,5 @@
+import dashboard from './script/dashboard.js';
+
 const body = document.querySelector('body');
 const navLinks = document.querySelectorAll('.nav__link');
 const iconMenu = document.querySelector('.icon-menu');
@@ -74,12 +76,10 @@ if (iconMenu) {
   });
 };
 
-screen.orientation.addEventListener('change', () => {
-  if (screen.width > 720) {
-    console.log(1);
-    // window.location = "https://stanislavponomarev93.github.io/evo-screen_main/index.html";
-  } else {
-    console.log(2);
-    // window.location = "https://stanislavponomarev93.github.io/evo-screen_main/mob.html";
-  }
-});
+// screen.orientation.addEventListener('change', () => {
+//   if (screen.width > 720) {
+//     window.location = "https://stanislavponomarev93.github.io/evo-screen_main/index.html";
+//   } else {
+//     window.location = "https://stanislavponomarev93.github.io/evo-screen_main/mob.html";
+//   }
+// });

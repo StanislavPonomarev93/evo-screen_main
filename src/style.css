@@ -106,6 +106,10 @@ select {
   font: inherit;
 }
 
+input[type="file"] {
+  color: transparent;
+}
+
 i {
   font-style: normal;
 }

@@ -16,6 +16,10 @@
 </head>
 
 <body>
+  <div class="loader-container">
+    <h3 class="loader-text">Идет анализ...</h3>
+    <div class="loader"></div>
+  </div>
   <div class="wrapper">
     <div class="container container_colorWhiteSmoke container_padding-8"></div>
     <header class="header header_position-sticky">
@@ -359,15 +363,15 @@
         <img src="img/Screenshot_202.png" alt="" class="image image_height-4 image_margin-top-2">
         <div
           class="container container_flex-wrap container_justify-content-1 container_row-gap-3 container_margin-top-14">
-          <div class="button button_bold button_colorDodgerBlue button_width-6">ИНВИТРО</div>
-          <div class="button button_bold button_colorSeaGreen button_width-6">ГЕМОТЕСТ</div>
-          <div class="button button_bold button_colorPurple button_width-6">KDL</div>
+          <a href="" class="button button_bold button_colorDodgerBlue button_width-6" id="invitro">ИНВИТРО</a>
+          <a href="" class="button button_bold button_colorSeaGreen button_width-6" id="gemotest">ГЕМОТЕСТ</a>
+          <a href="" class="button button_bold button_colorPurple button_width-6" id="kdl">KDL</a>
           <a href="" class="button button_colorBlackGray button_width-6">Пример</a>
           <a href="" class="button button_colorBlackGray button_width-6">Пример</a>
           <a href="" class="button button_colorBlackGray button_width-6">Пример</a>
         </div>
         <div class="container">
-          <form action="" class="form">
+          <form action="" class="form form_hidden" id="form-dashboard">
             <div class="container container_margin-top-11 container_column">
               <label for="cd4" class="text text_semi-bold text_font-size-10">Т-хелперы CD3/CD4</label>
               <input type="number" step="0.001" name="cd4" class="input" required>
@@ -393,6 +397,9 @@
               <input type="number" step="0.001" name="cd16p" class="input">
             </div>
             <button class="button button_colorTomato button_width-7 button_margin-top-3">Расшифровать</button>
+            <p class="text text_font-size-10 text_margin-4">или</p>
+            <input class="input-button" type="file" accept=".pdf">
+            <p class="text text_colorRed text_font-size-10 text_margin-top-4 result-text"></p>
           </form>
         </div>
         <p class="text text_semi-bold text_font-size-10 text_margin-top-7">Возникли сложности?</p>
