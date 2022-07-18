@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЭВО-Скрин</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="style.min.css">
+  <!-- <script type="text/javascript">
+    if (screen.width <= 720) {
+      window.location = "https://stanislavponomarev93.github.io/evo-screen_main/mob.html";
+    }
+  </script> -->
+</head>
+
+<body>
+  <div class="loader-container">
+    <h3 class="loader-text">Идет анализ...</h3>
+    <div class="loader"></div>
+  </div>
+  <div class="wrapper">
+    <header class="header">
+      <div
+        class="container container_justify-content-1 container_align-items-1 container_colorWhiteSmoke container_padding-7 container_margin-bottom-1">
+        <a href="" class="logo"><img src="img/logo.svg" alt="logo"></a>
+        <div class="container">
+          <div class="description-column">
+            <h4 class="title title_font-size-1 title_semi-bold">Инновация&#160;&#160;<span
+                class="circle description-column__circle"></span></h4>
+            <p class="text">Новый уровень оценки имунного статуса, имеющий прогностическое значение</p>
+          </div>
+          <div class="description-column">
+            <h4 class="title title_font-size-1 title_semi-bold">Центр технологиии&#160;&#160;<span
+                class="circle description-column__circle"></span></h4>
+            <p class="text">Точная оценка качественного<br>и количественного состава лимфоцитов фенотипированием</p>
+          </div>
+          <div class="socials socials_column-gap-1 socials_flex-grow-1 socials_justify-content-1 socials_align-self-1">
+            <a href="" class="socials__icon">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.9992 0.0302734C14.6951 0.0302734 9.60822 2.13733 5.85764 5.88791C2.10706 9.63849 6.217e-08 14.7254 6.217e-08 20.0295V20.0295C-0.000206977 22.6546 0.516699 25.2541 1.52121 27.6795C2.52571 30.1048 3.99815 32.3086 5.85441 34.1648C7.71067 36.0211 9.9144 37.4935 12.3398 38.498C14.7651 39.5025 17.3646 40.0194 19.9898 40.0192H20.0102C22.6353 40.0192 25.2347 39.5022 27.66 38.4976C30.0853 37.493 32.2889 36.0206 34.1451 34.1644C36.0014 32.3082 37.4738 30.1045 38.4784 27.6792C39.4829 25.254 40 22.6546 40 20.0295V20.0295C39.9996 14.7252 37.8922 9.63835 34.1414 5.88781C30.3905 2.13728 25.3035 0.0302734 19.9992 0.0302734V0.0302734Z"
+                  fill="#3F464C" />
+                <path
+                  d="M28.3633 11.8383L9.3667 19.0344C8.32788 19.3339 8.36098 20.3601 9.12866 20.6107L13.8892 22.0972L15.7099 27.6807C15.9322 28.2923 16.1119 28.5224 16.4902 28.5272C16.8686 28.5319 17.0404 28.3869 17.4534 28.0227C17.9358 27.5688 18.6719 26.8547 19.8353 25.7244L24.785 29.3816C25.6962 29.8844 26.3614 29.6243 26.5821 28.5366L29.6796 13.1735C30.0185 11.8399 29.2351 11.4426 28.3633 11.8383ZM14.6364 21.7473L25.4565 14.9579C25.9909 14.6017 26.158 15.0005 25.9168 15.2732L16.9316 23.352L16.4697 27.3843L14.6364 21.7473Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a href="" class="socials__icon">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.9898 40H20.0102C25.312 39.9996 30.3965 37.8932 34.1452 34.1441C37.894 30.3951 40 25.3104 40 20.0087V19.9992C39.9996 14.6949 37.8922 9.60807 34.1414 5.85754C30.3905 2.107 25.3035 -1.64744e-08 19.9992 0V0C14.6951 0 9.60821 2.10705 5.85763 5.85763C2.10705 9.60821 6.216e-08 14.6951 6.216e-08 19.9992V20.0087C-0.000206958 22.6339 0.51669 25.2334 1.52118 27.6589C2.52566 30.0844 3.99807 32.2882 5.85431 34.1446C7.71055 36.001 9.91427 37.4735 12.3396 38.4782C14.765 39.4829 17.3645 40 19.9898 40V40Z"
+                  fill="#3F464C" />
+                <path
+                  d="M25.6899 23.5288C25.3242 23.5288 25.1429 23.8062 25.1429 24.3627V24.9207H26.2321V24.369C26.2321 23.8089 26.0514 23.5288 25.6899 23.5288Z"
+                  fill="white" />
+                <path
+                  d="M28.3553 20.4686C28.2543 20.0071 28.0124 19.5885 27.6631 19.2705C27.3138 18.9525 26.8743 18.7509 26.4054 18.6936C24.167 18.4445 21.9033 18.443 19.6476 18.4445C17.3918 18.4461 15.1282 18.4445 12.8897 18.6936C12.4211 18.7508 11.9817 18.9522 11.6324 19.2699C11.2831 19.5875 11.0411 20.0059 10.9398 20.467C10.6245 21.8337 10.6245 23.3249 10.6245 24.7326C10.6245 26.1403 10.6245 27.6315 10.9398 28.9982C11.0409 29.4595 11.2829 29.8779 11.6322 30.1956C11.9815 30.5133 12.421 30.7146 12.8897 30.7716C15.1266 31.0223 17.3918 31.0223 19.6476 31.0223C21.9033 31.0223 24.167 31.0223 26.4038 30.7716C26.8728 30.7147 27.3124 30.5135 27.6621 30.1958C28.0117 29.8781 28.2539 29.4596 28.3553 28.9982C28.6706 27.6315 28.6706 26.1403 28.6706 24.7326C28.6706 23.3249 28.669 21.8353 28.3553 20.4686ZM15.7697 21.6981H14.4629V28.6341H13.2507V21.6981H11.9676V20.5616H15.7697V21.6981ZM19.0643 28.6341H17.9735V27.9768C17.54 28.4749 17.1286 28.7161 16.7266 28.7161C16.3751 28.7161 16.1339 28.5742 16.0251 28.2684C15.9475 27.9771 15.9145 27.6757 15.9274 27.3746V22.6203H17.0182V27.0483C17.0129 27.1897 17.0161 27.3313 17.0277 27.4723C17.0545 27.641 17.138 27.7277 17.283 27.7277C17.5021 27.7277 17.7307 27.559 17.9735 27.2169V22.6203H19.0643V28.6341ZM23.207 26.8276C23.2224 27.2347 23.1853 27.6421 23.0966 28.0398C22.9516 28.4875 22.66 28.7161 22.2249 28.7161C21.8387 28.7161 21.4635 28.5017 21.0994 28.0508V28.6341H20.0086V20.5616H21.0994V23.1988C21.4509 22.7653 21.8245 22.5462 22.2249 22.5462C22.66 22.5462 22.9516 22.7748 23.0966 23.2256C23.1869 23.6225 23.224 24.0296 23.207 24.4363V26.8276ZM27.3228 25.8234H25.1427V26.8906C25.1427 27.4471 25.324 27.7261 25.6992 27.7261C25.9672 27.7261 26.1248 27.5795 26.1863 27.2879C26.2068 27.042 26.2147 26.7953 26.2099 26.5486H27.3244V26.7062C27.3244 27.0577 27.3118 27.3005 27.3023 27.4093C27.2676 27.6433 27.1803 27.8664 27.047 28.0619C26.9011 28.2743 26.7032 28.4458 26.4723 28.56C26.2413 28.6743 25.9849 28.7274 25.7276 28.7145C25.4741 28.7269 25.2214 28.6772 24.9915 28.5698C24.7615 28.4624 24.5613 28.3005 24.4082 28.0981C24.1764 27.797 24.0566 27.3226 24.0566 26.6794V24.5813C24.0566 23.9381 24.1622 23.4684 24.394 23.1626C24.5453 22.9612 24.7433 22.7997 24.971 22.6921C25.1987 22.5844 25.4491 22.5338 25.7008 22.5446C25.9495 22.5339 26.197 22.5847 26.4213 22.6925C26.6457 22.8002 26.84 22.9617 26.9871 23.1626C27.2156 23.4668 27.3244 23.9366 27.3244 24.5813L27.3228 25.8234Z"
+                  fill="white" />
+                <path
+                  d="M21.6496 23.5288C21.5462 23.5352 21.4451 23.5618 21.3521 23.6073C21.259 23.6527 21.1759 23.716 21.1073 23.7936V27.4618C21.175 27.5408 21.2579 27.6054 21.351 27.6517C21.4442 27.698 21.5457 27.7251 21.6496 27.7314C21.9648 27.7314 22.1225 27.4618 22.1225 26.918V24.3501C22.1225 23.8062 21.9648 23.5288 21.6496 23.5288Z"
+                  fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M17.7559 9.19629H16.5216L15.6877 12.3994L14.8207 9.19629H13.536C13.793 9.95136 14.0609 10.7127 14.3242 11.4694C14.6302 12.3119 14.8793 13.174 15.0698 14.0499V17.3602H16.2899V14.0499L17.7559 9.19629ZM21.019 15.3835V13.2554C21.019 12.6059 20.9086 12.1315 20.6785 11.8241C20.5324 11.6218 20.3384 11.4591 20.1139 11.3504C19.8894 11.2417 19.6414 11.1905 19.3922 11.2014C19.1437 11.1909 18.8965 11.2423 18.6728 11.3509C18.4491 11.4596 18.2559 11.6222 18.1106 11.8241C17.8757 12.1315 17.7654 12.6122 17.7654 13.2554V15.3835C17.7654 16.0298 17.8757 16.509 18.1106 16.8132C18.2559 17.0151 18.4491 17.1777 18.6728 17.2864C18.8965 17.395 19.1437 17.4464 19.3922 17.4359C19.6414 17.4468 19.8894 17.3956 20.1139 17.2869C20.3384 17.1782 20.5324 17.0155 20.6785 16.8132C20.9102 16.5106 21.019 16.0314 21.019 15.3835ZM19.9155 15.5916C19.9155 16.1543 19.7453 16.4349 19.3906 16.4349C19.0359 16.4349 18.8657 16.1543 18.8657 15.5916V13.0347C18.8657 12.472 19.0359 12.1929 19.3906 12.1929C19.7453 12.1929 19.9155 12.472 19.9155 13.0347V15.5916ZM25.0923 17.3523V11.2739H23.9888V15.921C23.7445 16.2662 23.5159 16.4365 23.2921 16.4365C23.1455 16.4365 23.0588 16.3498 23.0351 16.1795C23.0177 16.0373 23.013 15.8938 23.0209 15.7508V11.2739H21.9175V16.0818C21.9051 16.386 21.9375 16.6903 22.0136 16.9851C22.124 17.3003 22.3683 17.4375 22.7246 17.4375C23.125 17.4375 23.5443 17.1931 23.9857 16.6903V17.3539L25.0923 17.3523Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a href="" class="socials__icon">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.9992 0C14.6951 0 9.60821 2.10705 5.85764 5.85763C2.10706 9.60821 1.55399e-06 14.6951 1.55399e-06 19.9992V19.9992C-0.00103376 22.625 0.515254 25.2252 1.51937 27.6514C2.52348 30.0776 3.99576 32.2821 5.85208 34.1392C7.7084 35.9962 9.9124 37.4694 12.3382 38.4745C14.764 39.4795 17.364 39.9968 19.9898 39.9968H20.0087C22.6345 39.9968 25.2346 39.4795 27.6605 38.4745C30.0864 37.4694 32.2905 35.9963 34.1469 34.1393C36.0034 32.2823 37.4758 30.0777 38.4801 27.6515C39.4843 25.2253 40.0008 22.625 40 19.9992V19.9992C39.9996 14.6949 37.8922 9.60807 34.1413 5.85754C30.3905 2.107 25.3035 -1.64744e-08 19.9992 0V0Z"
+                  fill="#3F464C" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M20.1842 9.75781C17.539 9.75781 15.0022 10.8086 13.1318 12.679C11.2614 14.5494 10.2106 17.0862 10.2106 19.7314C10.2081 21.5466 10.7031 23.3278 11.6419 24.8814L9.84174 30.2331L15.359 28.4644C16.8344 29.2805 18.4934 29.7074 20.1795 29.705C22.8246 29.705 25.3615 28.6542 27.2319 26.7838C29.1023 24.9134 30.1531 22.3766 30.1531 19.7314C30.1531 17.0871 29.1029 14.551 27.2335 12.6807C25.3641 10.8104 22.8285 9.75907 20.1842 9.75781V9.75781ZM20.1842 28.0341C18.5585 28.0364 16.9682 27.5588 15.6128 26.6611L12.4222 27.6825L13.4595 24.5992C12.4321 23.1843 11.8802 21.4799 11.8831 19.7314C11.8856 17.5302 12.7612 15.4198 14.3177 13.8633C15.8742 12.3068 17.9845 11.4312 20.1858 11.4287C22.387 11.4312 24.4974 12.3068 26.0539 13.8633C27.6104 15.4198 28.4859 17.5302 28.4884 19.7314C28.4859 21.9329 27.6102 24.0435 26.0533 25.6001C24.4965 27.1566 22.3857 28.032 20.1842 28.0341V28.0341ZM24.8612 21.9982C24.6106 21.8611 23.3826 21.1974 23.1525 21.1044C22.9223 21.0114 22.7537 20.9625 22.574 21.21C22.3942 21.4575 21.8851 22.014 21.7306 22.1779C21.5761 22.3418 21.4264 22.3576 21.1773 22.2205C20.4379 21.8932 19.761 21.4398 19.1769 20.8806C18.6397 20.3454 18.185 19.7334 17.8275 19.0646C17.6873 18.8045 17.8276 18.6721 17.9584 18.5491C18.0892 18.4262 18.2232 18.2622 18.3572 18.1172C18.4664 17.9926 18.5572 17.853 18.6268 17.7026C18.6635 17.634 18.6827 17.5574 18.6827 17.4796C18.6827 17.4018 18.6635 17.3251 18.6268 17.2565C18.5684 17.1273 18.1066 15.8551 17.9127 15.3365C17.7188 14.8179 17.5044 14.8967 17.3562 14.8904C17.208 14.8841 17.0409 14.8573 16.8691 14.851C16.74 14.8496 16.612 14.8749 16.4932 14.9253C16.3744 14.9758 16.2673 15.0503 16.1787 15.1442C15.8806 15.4061 15.6403 15.7272 15.4731 16.0871C15.3059 16.447 15.2155 16.8377 15.2076 17.2345C15.1604 18.4861 16.0274 19.7314 16.1535 19.9064C16.2796 20.0814 17.8086 22.7958 20.3576 23.9119C22.9066 25.028 22.9207 24.689 23.3889 24.6638C23.8571 24.6386 24.918 24.1042 25.1529 23.5178C25.3877 22.9314 25.4067 22.4222 25.3468 22.3135C25.2869 22.2047 25.1103 22.1338 24.8612 21.9982Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li><a class="nav__link nav__link-active" href="">о компании</a></li>
+        <li><a class="nav__link" href="">миссия</a></li>
+        <li><a class="nav__link" href="#analysis">сдать анализ</a></li>
+        <li><a class="nav__link" href="#decryption">получить расшифровку</a></li>
+        <li><a class="nav__link" href="#article">статьи</a></li>
+        <li><a class="nav__link" href="#promotions">акции</a></li>
+        <li><a class="nav__link" href="#news">новости</a></li>
+        <li><a class="nav__link" href="#contacts">контакты</a></li>
+      </ul>
+      <button class="button button_colorBlue button_width-2 button_font-size-1">Личный кабинет</button>
+    </nav>
+    <main class="main">
+      <div class="container">
+        <div class="container__inner-qq">
+          <h2 class="title title_line-height-1 title_font-size-2">Профиль иммунитета</h2>
+          <p class="text text_font-size-1 text_margin-top-1"><b class="text text_colorBlue text_bold">«Порядковый
+              номер»</b><br>эффективности<br>и сбалансированности Вашего<br>иммунитета</p>
+        </div>
+        <div class="container__inner-ww">
+          <img src="img/aim.svg" class="image image_position-1 image_width-1 image__border-radius-none" alt="image">
+          <img src="img/img11.png" class="image image_position-2 image_width-2 image_border-radius-none" alt="image">
+        </div>
+      </div>
+      <div class="container container_column container_padding-16">
+        <h3 class="title title_font-size-3 title_colorBlue"><span
+            class="underline"></span>&nbsp;&nbsp;&nbsp;&nbsp;Имунный профиль</h3>
+        <h2 class="title title_font-size-2 title_medium title_margin-top-3">Что это?</h2>
+        <div class="container container_margin-top-8 container_gap-7 container_align-items-1">
+          <img src="img/img12.jpg" alt="" class="image image_width-3">
+          <div>
+            <p class="text text_font-size-4"><b>Профиль иммунитета —</b><br>это комплексный показатель четырех качеств
+              иммунного ответа, отвечающих за эффективность</p>
+            <div class="container container_margin-top-4 container_gap-2 container_align-items-1">
+              <img src="img/clock.svg" alt="иконка" class="icon icon_width-4 icon_margin-top-2">
+              <h4 class="title title_font-size-4">Скорость<p class="text text_font-size-3 text_line-height-1">Время
+                  между обнаружением чужеродного антигена и его нейтрализацией</p>
+              </h4>
+            </div>
+            <div class="container container_margin-top-5 container_gap-2 container_align-items-1">
+              <img src="img/ic2.svg" alt="иконка" class="icon icon_width-4 icon_margin-top-1">
+              <h4 class="title title_font-size-4">Точность<p class="text text_font-size-3 text_line-height-1">
+                  Избирательность и специфичность нейтрализации только чужеродных объектов, без повреждения собственных
+                </p>
+              </h4>
+            </div>
+            <div class="container container_margin-top-5 container_gap-2 container_align-items-1">
+              <img src="img/ic4.svg" alt="иконка" class="icon icon_width-4 icon_margin-top-1">
+              <h4 class="title title_font-size-4">Адаптивность<p class="text text_font-size-3 text_line-height-1">
+                  Способность перестраивать активность субпопуляций как в рамках первичного иммунного ответа, так и при
+                  вторичном контакте</p>
+              </h4>
+            </div>
+            <div class="container container_margin-top-5 container_gap-2 container_align-items-1">
+              <img src="img/ic5.svg" alt="иконка" class="icon icon_width-4 icon_margin-top-1">
+              <h4 class="title title_font-size-4">Регуляторность<p class="text text_font-size-3 text_line-height-1">
+                  Способность формировать устойчивый и полноценный пул клеток памяти, а также сбалансированно связывать
+                  клеточный ответ с антителообразованием и системой комплемента</p>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container container_column container_padding-17">
+        <h3 class="title title_font-size-3 title_colorBlue"><span class="underline"></span>&nbsp;&nbsp;&nbsp;&nbsp;Шкала
+          профилей</h3>
+        <h2 class="title title_font-size-2 title_medium title_margin-top-3">иммунитета</h2>
+        <div class="container container_gap-9">
+          <p class="text text_margin-1 text_font-size-4 text_line-height-1 text_width-2"><b>Шкала профилей
+              иммунитета</b> — это расположение качеств
+            клеточного
+            иммунитета в порядке увеличения их силы и сбалансированности<br><br>Позволяет быстро и удобно определять
+            влияние на иммунный статус различных физических факторов, биологически активных и фармацевтических
+            субстанций
+            во времени.<br><br>Номер профиля -используется как способ сравнение иммунитета разных людей, так и способ
+            точного изменения иммунитета у одного человека в динамике</p>
+          <div class="container container_column container_width-4">
+            <img src="img/logo.svg" alt="" class="image image_width-4 image_margin-1 image_border-radius-none">
+            <img src="img/ic18.svg" alt="" class="icon icon_width-18 icon_position-7">
+            <img src="img/ic19.svg" alt="" class="icon icon_width-19 icon_position-8">
+            <span class="circle circle_colorTomato circle_size circle_position-1"></span>
+            <span class="circle circle_colorTomato circle_size circle_position-2"></span>
+            <span class="circle circle_colorTomato circle_size circle_position-3"></span>
+            <p class="text text_margin-top-1 text_padding-left-1 text_font-size-4">Эво-скрин высокоточно анализирует
+              влияние на клеточный
+              иммуните таких лекарственных
+              препаратов как:<br>
+              антибиотики, пробиотики и симбиотики<br>гормональные и
+              химиотерапевтические онкологические
+              препараты иммуномодуляторы,<br>иммунодепрессанты и
+              иммуностимуляторы, витаминные
+              комплексы<br><br>Специалисты
+              используют алгоритм для оценки целесообразности и эффективности вакцинации</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container__inner-u">
+          <div class="container">
+            <img src="img/telegram-1.svg" alt="telegram" class="icon icon_width-7">
+            <p class="text text_colorWhite text_font-size-7 text_margin-left-2">Текст про канал в телеграмм</p>
+          </div>
+        </div>
+        <div class="container__inner-i">
+          <div class="container">
+            <img src="img/tel-2.svg" alt="telegram" class="icon icon_width-9">
+            <p class="text text_colorWhite text_font-size-7 text_margin-left-2">Текст про бот в телеграмм</p>
+          </div>
+        </div>
+      </div>
+      <div class="container container_column container_padding-1 container_colorWhiteSmoke">
+        <h3 class="title title_font-size-3 title_colorBlue"><span
+            class="underline"></span>&nbsp;&nbsp;&nbsp;&nbsp;Остались вопросы?</h3>
+        <div class="container container_grid-1 container_margin-top-4">
+          <div class="container__inner">
+            <h5 class="title title_font-size-4">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          </div>
+          <div class="container__inner">
+            <h5 class="title title_font-size-4">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <h5 class="title title_font-size-4 title_margin-top-7">Вопрос</h5>
+            <p class="text text_font-size-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            <a href="" class="button button_colorBlackGray button_position-3">Подробнее</a>
+          </div>
+          <div class="container__inner">
+            <img src="img/Screenshot_203.png" alt=""
+              class="image image_height-3 image_margin-top-1 image_display-block">
+          </div>
+        </div>
+      </div>
+      <div class="container container_colorBlue container_padding-5 container_justify-content-1">
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Всё про имммунитет</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Женщинам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Мужчинам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Врачам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Медучреждениям</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Лабораториям</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Корпоративным клиентам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+      </div>
+      <div id="news" class="container container_column container_padding-1">
+        <h3 class="title title_font-size-3 title_colorBlue"><span
+            class="underline"></span>&nbsp;&nbsp;&nbsp;&nbsp;Новости про иммунитет</h3>
+        <div class="container container_grid-1 container_margin-top-2">
+          <div class="container__inner">
+            <a href=""
+              class="button button_colorTomato button_position-4 button_width-3 button_bold button_padding-1 button_cursor">новое</a>
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <h5 class="title title_margin-top-7 title_font-size-4">Заголовок</h5>
+            <p class="text text_font-size-4 text_margin-top-1">Дата</p>
+            <p class="text text_font-size-4">Описание</p>
+            <a href="" class="button button_colorBlackGray button_margin-top-1">Подробнее</a>
+          </div>
+          <div class="container__inner">
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <h5 class="title title_margin-top-7 title_font-size-4">Заголовок</h5>
+            <p class="text text_font-size-4 text_margin-top-1">Дата</p>
+            <p class="text text_font-size-4">Описание</p>
+            <a href="" class="button button_colorBlackGray button_margin-top-1">Подробнее</a>
+          </div>
+          <div class="container__inner">
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <h5 class="title title_margin-top-7 title_font-size-4">Заголовок</h5>
+            <p class="text text_font-size-4 text_margin-top-1">Дата</p>
+            <p class="text text_font-size-4">Описание</p>
+            <a href="" class="button button_colorBlackGray button_margin-top-1">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="container container_column container_padding-1 container_colorWhiteSmoke">
+        <h3 class="title title_font-size-3 title_colorBlue"><span class="underline"></span>&nbsp;&nbsp;&nbsp;&nbsp;Новое
+          на сайте</h3>
+        <div class="container container_grid-1 container_margin-top-2">
+          <div class="container__inner">
+            <a href=""
+              class="button button_colorTomato button_position-4 button_width-3 button_bold button_padding-1 button_cursor">новое</a>
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <h5 class="title title_margin-top-7 title_font-size-4">Заголовок</h5>
+            <p class="text text_font-size-4 text_margin-top-1">Дата</p>
+            <p class="text text_font-size-4">Описание</p>
+            <a href="" class="button button_colorBlackGray button_margin-top-1">Подробнее</a>
+          </div>
+          <div class="container__inner">
+            <a href=""
+              class="button button_colorTomato button_position-4 button_width-3 button_bold button_padding-1 button_cursor">новое</a>
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <h5 class="title title_margin-top-7 title_font-size-4">Заголовок</h5>
+            <p class="text text_font-size-4 text_margin-top-1">Дата</p>
+            <p class="text text_font-size-4">Описание</p>
+            <a href="" class="button button_colorBlackGray button_margin-top-1">Подробнее</a>
+          </div>
+          <div class="container__inner">
+            <a href=""
+              class="button button_colorTomato button_position-4 button_width-3 button_bold button_padding-1 button_cursor">новое</a>
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <h5 class="title title_margin-top-7 title_font-size-4">Заголовок</h5>
+            <p class="text text_font-size-4 text_margin-top-1">Дата</p>
+            <p class="text text_font-size-4">Описание</p>
+            <a href="" class="button button_colorBlackGray button_margin-top-1">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div class="container container_column container_padding-1 container_colorBlue">
+        <h3 class="title title_font-size-3 title_colorWhite"><span
+            class="underline underline_colorWhite"></span>&nbsp;&nbsp;&nbsp;&nbsp;О команде</h3>
+        <div class="container container_justify-content-1 container_margin-top-2">
+          <div class="container__inner-m">
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <p class="text text_colorWhite text_margin-top-3 text_width-1 text_font-size-4 text_line-height-1">Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <a href="" class="button button_colorTomato button_margin-top-1">Подробнее</a>
+          </div>
+          <div class="container__inner-v">
+            <img src="img/Screenshot_203.png" alt="" class="image image_height-1">
+            <p class="text text_colorWhite text_margin-top-3 text_width-1 text_font-size-4 text_line-height-1">Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <a href="" class="button button_colorTomato button_margin-top-1">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container container_justify-content-1 container_align-items-1 container_colorWhiteSmoke container_padding-7">
+        <a href="" class="logo"><img src="img/logo.svg" alt="logo"></a>
+        <div class="container">
+          <div class="description-column">
+            <h4 class="title title_font-size-1 title_semi-bold">Инновация&nbsp;&nbsp;<span
+                class="circle description-column__circle"></span></h4>
+            <p class="text">Новый уровень оценки имунного статуса, имеющий прогностическое значение</p>
+          </div>
+          <div class="description-column">
+            <h4 class="title title_font-size-1 title_semi-bold">Центр технологиии&nbsp;&nbsp;<span
+                class="circle description-column__circle"></span></h4>
+            <p class="text">Точная оценка качественного<br>и количественного состава лимфоцитов фенотипированием</p>
+          </div>
+        </div>
+      </div>
+      <div class="container container_colorBlue container_padding-5 container_justify-content-1">
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Всё про имммунитет</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Женщинам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Мужчинам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Врачам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Медучреждениям</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Лабораториям</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+        <div class="container__inner">
+          <h5 class="title title_colorWhite title_font-size-4">Корпоративным клиентам</h5>
+          <a href="" class="link link_margin-top-1">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+          <a href="" class="link">Ссылка</a>
+        </div>
+      </div>
+      <div id="contacts" class="container container_column container_padding-1">
+        <div class="container container_justify-content-1 container_align-items-2">
+          <h3 class="title title_font-size-3 title_colorBlue"><span
+              class="underline"></span>&nbsp;&nbsp;&nbsp;&nbsp;Контакты</h3>
+          <div class="socials socials_column-gap-1">
+            <a href="" class="socials__icon">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.9992 0.0302734C14.6951 0.0302734 9.60822 2.13733 5.85764 5.88791C2.10706 9.63849 6.217e-08 14.7254 6.217e-08 20.0295V20.0295C-0.000206977 22.6546 0.516699 25.2541 1.52121 27.6795C2.52571 30.1048 3.99815 32.3086 5.85441 34.1648C7.71067 36.0211 9.9144 37.4935 12.3398 38.498C14.7651 39.5025 17.3646 40.0194 19.9898 40.0192H20.0102C22.6353 40.0192 25.2347 39.5022 27.66 38.4976C30.0853 37.493 32.2889 36.0206 34.1451 34.1644C36.0014 32.3082 37.4738 30.1045 38.4784 27.6792C39.4829 25.254 40 22.6546 40 20.0295V20.0295C39.9996 14.7252 37.8922 9.63835 34.1414 5.88781C30.3905 2.13728 25.3035 0.0302734 19.9992 0.0302734V0.0302734Z"
+                  fill="#3F464C"></path>
+                <path
+                  d="M28.3633 11.8383L9.3667 19.0344C8.32788 19.3339 8.36098 20.3601 9.12866 20.6107L13.8892 22.0972L15.7099 27.6807C15.9322 28.2923 16.1119 28.5224 16.4902 28.5272C16.8686 28.5319 17.0404 28.3869 17.4534 28.0227C17.9358 27.5688 18.6719 26.8547 19.8353 25.7244L24.785 29.3816C25.6962 29.8844 26.3614 29.6243 26.5821 28.5366L29.6796 13.1735C30.0185 11.8399 29.2351 11.4426 28.3633 11.8383ZM14.6364 21.7473L25.4565 14.9579C25.9909 14.6017 26.158 15.0005 25.9168 15.2732L16.9316 23.352L16.4697 27.3843L14.6364 21.7473Z"
+                  fill="white"></path>
+              </svg>
+            </a>
+            <a href="" class="socials__icon">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.9898 40H20.0102C25.312 39.9996 30.3965 37.8932 34.1452 34.1441C37.894 30.3951 40 25.3104 40 20.0087V19.9992C39.9996 14.6949 37.8922 9.60807 34.1414 5.85754C30.3905 2.107 25.3035 -1.64744e-08 19.9992 0V0C14.6951 0 9.60821 2.10705 5.85763 5.85763C2.10705 9.60821 6.216e-08 14.6951 6.216e-08 19.9992V20.0087C-0.000206958 22.6339 0.51669 25.2334 1.52118 27.6589C2.52566 30.0844 3.99807 32.2882 5.85431 34.1446C7.71055 36.001 9.91427 37.4735 12.3396 38.4782C14.765 39.4829 17.3645 40 19.9898 40V40Z"
+                  fill="#3F464C"></path>
+                <path
+                  d="M25.6899 23.5288C25.3242 23.5288 25.1429 23.8062 25.1429 24.3627V24.9207H26.2321V24.369C26.2321 23.8089 26.0514 23.5288 25.6899 23.5288Z"
+                  fill="white"></path>
+                <path
+                  d="M28.3553 20.4686C28.2543 20.0071 28.0124 19.5885 27.6631 19.2705C27.3138 18.9525 26.8743 18.7509 26.4054 18.6936C24.167 18.4445 21.9033 18.443 19.6476 18.4445C17.3918 18.4461 15.1282 18.4445 12.8897 18.6936C12.4211 18.7508 11.9817 18.9522 11.6324 19.2699C11.2831 19.5875 11.0411 20.0059 10.9398 20.467C10.6245 21.8337 10.6245 23.3249 10.6245 24.7326C10.6245 26.1403 10.6245 27.6315 10.9398 28.9982C11.0409 29.4595 11.2829 29.8779 11.6322 30.1956C11.9815 30.5133 12.421 30.7146 12.8897 30.7716C15.1266 31.0223 17.3918 31.0223 19.6476 31.0223C21.9033 31.0223 24.167 31.0223 26.4038 30.7716C26.8728 30.7147 27.3124 30.5135 27.6621 30.1958C28.0117 29.8781 28.2539 29.4596 28.3553 28.9982C28.6706 27.6315 28.6706 26.1403 28.6706 24.7326C28.6706 23.3249 28.669 21.8353 28.3553 20.4686ZM15.7697 21.6981H14.4629V28.6341H13.2507V21.6981H11.9676V20.5616H15.7697V21.6981ZM19.0643 28.6341H17.9735V27.9768C17.54 28.4749 17.1286 28.7161 16.7266 28.7161C16.3751 28.7161 16.1339 28.5742 16.0251 28.2684C15.9475 27.9771 15.9145 27.6757 15.9274 27.3746V22.6203H17.0182V27.0483C17.0129 27.1897 17.0161 27.3313 17.0277 27.4723C17.0545 27.641 17.138 27.7277 17.283 27.7277C17.5021 27.7277 17.7307 27.559 17.9735 27.2169V22.6203H19.0643V28.6341ZM23.207 26.8276C23.2224 27.2347 23.1853 27.6421 23.0966 28.0398C22.9516 28.4875 22.66 28.7161 22.2249 28.7161C21.8387 28.7161 21.4635 28.5017 21.0994 28.0508V28.6341H20.0086V20.5616H21.0994V23.1988C21.4509 22.7653 21.8245 22.5462 22.2249 22.5462C22.66 22.5462 22.9516 22.7748 23.0966 23.2256C23.1869 23.6225 23.224 24.0296 23.207 24.4363V26.8276ZM27.3228 25.8234H25.1427V26.8906C25.1427 27.4471 25.324 27.7261 25.6992 27.7261C25.9672 27.7261 26.1248 27.5795 26.1863 27.2879C26.2068 27.042 26.2147 26.7953 26.2099 26.5486H27.3244V26.7062C27.3244 27.0577 27.3118 27.3005 27.3023 27.4093C27.2676 27.6433 27.1803 27.8664 27.047 28.0619C26.9011 28.2743 26.7032 28.4458 26.4723 28.56C26.2413 28.6743 25.9849 28.7274 25.7276 28.7145C25.4741 28.7269 25.2214 28.6772 24.9915 28.5698C24.7615 28.4624 24.5613 28.3005 24.4082 28.0981C24.1764 27.797 24.0566 27.3226 24.0566 26.6794V24.5813C24.0566 23.9381 24.1622 23.4684 24.394 23.1626C24.5453 22.9612 24.7433 22.7997 24.971 22.6921C25.1987 22.5844 25.4491 22.5338 25.7008 22.5446C25.9495 22.5339 26.197 22.5847 26.4213 22.6925C26.6457 22.8002 26.84 22.9617 26.9871 23.1626C27.2156 23.4668 27.3244 23.9366 27.3244 24.5813L27.3228 25.8234Z"
+                  fill="white"></path>
+                <path
+                  d="M21.6496 23.5288C21.5462 23.5352 21.4451 23.5618 21.3521 23.6073C21.259 23.6527 21.1759 23.716 21.1073 23.7936V27.4618C21.175 27.5408 21.2579 27.6054 21.351 27.6517C21.4442 27.698 21.5457 27.7251 21.6496 27.7314C21.9648 27.7314 22.1225 27.4618 22.1225 26.918V24.3501C22.1225 23.8062 21.9648 23.5288 21.6496 23.5288Z"
+                  fill="white"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M17.7559 9.19629H16.5216L15.6877 12.3994L14.8207 9.19629H13.536C13.793 9.95136 14.0609 10.7127 14.3242 11.4694C14.6302 12.3119 14.8793 13.174 15.0698 14.0499V17.3602H16.2899V14.0499L17.7559 9.19629ZM21.019 15.3835V13.2554C21.019 12.6059 20.9086 12.1315 20.6785 11.8241C20.5324 11.6218 20.3384 11.4591 20.1139 11.3504C19.8894 11.2417 19.6414 11.1905 19.3922 11.2014C19.1437 11.1909 18.8965 11.2423 18.6728 11.3509C18.4491 11.4596 18.2559 11.6222 18.1106 11.8241C17.8757 12.1315 17.7654 12.6122 17.7654 13.2554V15.3835C17.7654 16.0298 17.8757 16.509 18.1106 16.8132C18.2559 17.0151 18.4491 17.1777 18.6728 17.2864C18.8965 17.395 19.1437 17.4464 19.3922 17.4359C19.6414 17.4468 19.8894 17.3956 20.1139 17.2869C20.3384 17.1782 20.5324 17.0155 20.6785 16.8132C20.9102 16.5106 21.019 16.0314 21.019 15.3835ZM19.9155 15.5916C19.9155 16.1543 19.7453 16.4349 19.3906 16.4349C19.0359 16.4349 18.8657 16.1543 18.8657 15.5916V13.0347C18.8657 12.472 19.0359 12.1929 19.3906 12.1929C19.7453 12.1929 19.9155 12.472 19.9155 13.0347V15.5916ZM25.0923 17.3523V11.2739H23.9888V15.921C23.7445 16.2662 23.5159 16.4365 23.2921 16.4365C23.1455 16.4365 23.0588 16.3498 23.0351 16.1795C23.0177 16.0373 23.013 15.8938 23.0209 15.7508V11.2739H21.9175V16.0818C21.9051 16.386 21.9375 16.6903 22.0136 16.9851C22.124 17.3003 22.3683 17.4375 22.7246 17.4375C23.125 17.4375 23.5443 17.1931 23.9857 16.6903V17.3539L25.0923 17.3523Z"
+                  fill="white"></path>
+              </svg>
+            </a>
+            <a href="" class="socials__icon">
+              <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.9992 0C14.6951 0 9.60821 2.10705 5.85764 5.85763C2.10706 9.60821 1.55399e-06 14.6951 1.55399e-06 19.9992V19.9992C-0.00103376 22.625 0.515254 25.2252 1.51937 27.6514C2.52348 30.0776 3.99576 32.2821 5.85208 34.1392C7.7084 35.9962 9.9124 37.4694 12.3382 38.4745C14.764 39.4795 17.364 39.9968 19.9898 39.9968H20.0087C22.6345 39.9968 25.2346 39.4795 27.6605 38.4745C30.0864 37.4694 32.2905 35.9963 34.1469 34.1393C36.0034 32.2823 37.4758 30.0777 38.4801 27.6515C39.4843 25.2253 40.0008 22.625 40 19.9992V19.9992C39.9996 14.6949 37.8922 9.60807 34.1413 5.85754C30.3905 2.107 25.3035 -1.64744e-08 19.9992 0V0Z"
+                  fill="#3F464C"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M20.1842 9.75781C17.539 9.75781 15.0022 10.8086 13.1318 12.679C11.2614 14.5494 10.2106 17.0862 10.2106 19.7314C10.2081 21.5466 10.7031 23.3278 11.6419 24.8814L9.84174 30.2331L15.359 28.4644C16.8344 29.2805 18.4934 29.7074 20.1795 29.705C22.8246 29.705 25.3615 28.6542 27.2319 26.7838C29.1023 24.9134 30.1531 22.3766 30.1531 19.7314C30.1531 17.0871 29.1029 14.551 27.2335 12.6807C25.3641 10.8104 22.8285 9.75907 20.1842 9.75781V9.75781ZM20.1842 28.0341C18.5585 28.0364 16.9682 27.5588 15.6128 26.6611L12.4222 27.6825L13.4595 24.5992C12.4321 23.1843 11.8802 21.4799 11.8831 19.7314C11.8856 17.5302 12.7612 15.4198 14.3177 13.8633C15.8742 12.3068 17.9845 11.4312 20.1858 11.4287C22.387 11.4312 24.4974 12.3068 26.0539 13.8633C27.6104 15.4198 28.4859 17.5302 28.4884 19.7314C28.4859 21.9329 27.6102 24.0435 26.0533 25.6001C24.4965 27.1566 22.3857 28.032 20.1842 28.0341V28.0341ZM24.8612 21.9982C24.6106 21.8611 23.3826 21.1974 23.1525 21.1044C22.9223 21.0114 22.7537 20.9625 22.574 21.21C22.3942 21.4575 21.8851 22.014 21.7306 22.1779C21.5761 22.3418 21.4264 22.3576 21.1773 22.2205C20.4379 21.8932 19.761 21.4398 19.1769 20.8806C18.6397 20.3454 18.185 19.7334 17.8275 19.0646C17.6873 18.8045 17.8276 18.6721 17.9584 18.5491C18.0892 18.4262 18.2232 18.2622 18.3572 18.1172C18.4664 17.9926 18.5572 17.853 18.6268 17.7026C18.6635 17.634 18.6827 17.5574 18.6827 17.4796C18.6827 17.4018 18.6635 17.3251 18.6268 17.2565C18.5684 17.1273 18.1066 15.8551 17.9127 15.3365C17.7188 14.8179 17.5044 14.8967 17.3562 14.8904C17.208 14.8841 17.0409 14.8573 16.8691 14.851C16.74 14.8496 16.612 14.8749 16.4932 14.9253C16.3744 14.9758 16.2673 15.0503 16.1787 15.1442C15.8806 15.4061 15.6403 15.7272 15.4731 16.0871C15.3059 16.447 15.2155 16.8377 15.2076 17.2345C15.1604 18.4861 16.0274 19.7314 16.1535 19.9064C16.2796 20.0814 17.8086 22.7958 20.3576 23.9119C22.9066 25.028 22.9207 24.689 23.3889 24.6638C23.8571 24.6386 24.918 24.1042 25.1529 23.5178C25.3877 22.9314 25.4067 22.4222 25.3468 22.3135C25.2869 22.2047 25.1103 22.1338 24.8612 21.9982Z"
+                  fill="white"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <p class="text text_font-size-4 text_width-1 text_margin-top-3">Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation</p>
+      </div>
+    </main>
+  </div>
+  <script src="https://npmcdn.com/pdfjs-dist/build/pdf.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="app.min.js"></script>
+</body>
+
+</html>
