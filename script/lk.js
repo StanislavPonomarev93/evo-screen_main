@@ -196,7 +196,7 @@ document.querySelectorAll('.lk__sidebar-link')[3].addEventListener('click', (e) 
   });
 });
 
-window.onload = function() {
+setTimeout(() => {
   linerLoader.style.zIndex = '-9999';
   linerLoader.style.opacity = '0';
-}
+}, 3000);

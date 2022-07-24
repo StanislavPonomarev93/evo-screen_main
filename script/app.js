@@ -89,7 +89,7 @@ document.getElementById('lk').addEventListener('click', function () {
 //   }
 // });
 
-window.onload = function() {
+setTimeout(() => {
   linerLoader.style.zIndex = '-9999';
   linerLoader.style.opacity = '0';
-}
+}, 4000);
