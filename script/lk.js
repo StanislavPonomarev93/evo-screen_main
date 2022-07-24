@@ -1,4 +1,5 @@
 const lkContainer = document.querySelector('.lk__container');
+const linerLoader = document.querySelector('.liner-loader');
 
 document.querySelectorAll('.lk__sidebar-link_cursive').forEach((e) => {
   e.parentElement.style.marginTop = '1vw';
@@ -194,3 +195,8 @@ document.querySelectorAll('.lk__sidebar-link')[3].addEventListener('click', (e) 
     e.preventDefault();
   });
 });
+
+window.onload = function() {
+  linerLoader.style.zIndex = '-9999';
+  linerLoader.style.opacity = '0';
+}

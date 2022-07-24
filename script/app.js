@@ -1,10 +1,8 @@
-import dashboard from './dashboard.js';
-
-
 const body = document.querySelector('body');
 const navLinks = document.querySelectorAll('.nav__link');
 const iconMenu = document.querySelector('.icon-menu');
 const navMob = document.querySelector('.nav_mobile');
+const linerLoader = document.querySelector('.liner-loader');
 
 
 let swipeX;
@@ -90,3 +88,8 @@ document.getElementById('lk').addEventListener('click', function () {
 //     window.location = "https://stanislavponomarev93.github.io/evo-screen_main/mob.html";
 //   }
 // });
+
+window.onload = function() {
+  linerLoader.style.zIndex = '-9999';
+  linerLoader.style.opacity = '0';
+}
